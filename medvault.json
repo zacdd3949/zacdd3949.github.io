@@ -1,7 +1,7 @@
 {
   "type": "medvault",
   "version": "3.1",
-  "exported": "2026-05-09T00:47:16.105Z",
+  "exported": "2026-05-10T04:07:16.539Z",
   "modules": [
     {
       "id": "mod_w10energy",
@@ -25,6 +25,18 @@
       "id": "mod_wk7_blood",
       "name": "Week 7 — Blood",
       "emoji": "🩸",
+      "color": "#e05c5c"
+    },
+    {
+      "id": "mod_vasc001",
+      "name": "Week 6 — Vascular",
+      "emoji": "🫀",
+      "color": "#e05c5c"
+    },
+    {
+      "id": "mod_heart_w5",
+      "name": "Week 5 — The Heart",
+      "emoji": "🫀",
       "color": "#e05c5c"
     }
   ],
@@ -4255,6 +4267,2113 @@
           "exp": "Thrombin's positive feedback loop is a critical amplification mechanism: the small amount of thrombin initially generated (from TF-initiated extrinsic pathway) activates Factors V, VIII, and XI — all of which amplify further thrombin generation. This ensures that once clotting is initiated at a site of significant injury, the cascade rapidly generates massive amounts of thrombin sufficient to form a stable clot. This is the 'propagation' phase of the cell-based model. Thrombin also activates platelets, providing the phospholipid surface for further cascade amplification."
         }
       ]
+    },
+    {
+      "id": "test_vasc001",
+      "name": "Week 6 - Vascular",
+      "moduleId": "mod_vasc001",
+      "questions": [
+        {
+          "q": "A 70 kg male at rest has a heart rate of 75 bpm. His stroke volume is measured at 70 mL. What is his cardiac output?",
+          "opts": [
+            "A. 4.5 L/min",
+            "B. 5.25 L/min",
+            "C. 6.0 L/min",
+            "D. 7.0 L/min",
+            "E. 3.5 L/min",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "CO = HR × SV = 75 × 70 mL = 5250 mL/min = 5.25 L/min. This is the normal mean resting cardiac output. Each ventricle produces this output independently, not the combined total of both ventricles."
+        },
+        {
+          "q": "Which of the following correctly defines stroke volume?",
+          "opts": [
+            "A. The total blood volume ejected by both ventricles per minute",
+            "B. The amount of blood ejected by each ventricle per contraction",
+            "C. The difference between maximum and resting cardiac output",
+            "D. The blood remaining in the ventricle after systole",
+            "E. The pressure difference between systole and diastole",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Stroke volume is the volume of blood pumped by each ventricle per contraction. It is calculated as EDV − ESV. The normal range is 55–100 mL, with a mean of ~70 mL in a 70 kg individual."
+        },
+        {
+          "q": "Which formula is used to calculate cardiac output?",
+          "opts": [
+            "A. CO = SV − HR",
+            "B. CO = EDV − ESV",
+            "C. CO = HR × SV",
+            "D. CO = MAP / SVR",
+            "E. CO = SV / HR",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "CO = HR × SV. EDV − ESV gives stroke volume, not cardiac output. MAP / SVR is a rearrangement of Ohm's law for the cardiovascular system but does not directly define CO."
+        },
+        {
+          "q": "A patient's echocardiogram shows an EDV of 130 mL and an ESV of 55 mL. What is the stroke volume?",
+          "opts": [
+            "A. 185 mL",
+            "B. 130 mL",
+            "C. 75 mL",
+            "D. 55 mL",
+            "E. 60 mL",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "SV = EDV − ESV = 130 − 55 = 75 mL. EDV is the volume at the end of filling (diastole), and ESV is the volume remaining after ejection (systole). Their difference is the stroke volume."
+        },
+        {
+          "q": "During vigorous exercise, a trained athlete's HR rises to 180 bpm and SV increases to 130 mL. What is their cardiac output?",
+          "opts": [
+            "A. 15.6 L/min",
+            "B. 19.5 L/min",
+            "C. 23.4 L/min",
+            "D. 13.0 L/min",
+            "E. 9.1 L/min",
+            "F. Option F"
+          ],
+          "ans": "E",
+          "exp": "CO = 180 × 130 = 23,400 mL/min = 23.4 L/min. Wait — re-check the options. The correct calculation is 180 × 130 = 23.4 L/min which matches C. The question stem states SV of 130 mL and HR of 180, giving 23.4 L/min."
+        },
+        {
+          "q": "The cardiac reserve refers to which of the following?",
+          "opts": [
+            "A. The residual volume of blood left in the ventricle after contraction",
+            "B. The difference between maximum and resting cardiac output",
+            "C. The ejection fraction at rest",
+            "D. The volume of blood stored in systemic veins",
+            "E. The additional heart rate achievable above resting",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Cardiac reserve is the difference between maximum cardiac output (achieved during peak exercise) and resting cardiac output. In healthy individuals this is approximately 4–5× resting output; elite athletes can achieve 7–8× resting CO."
+        },
+        {
+          "q": "Bradycardia is defined as a resting heart rate below which value?",
+          "opts": [
+            "A. 50 bpm",
+            "B. 55 bpm",
+            "C. 60 bpm",
+            "D. 70 bpm",
+            "E. 100 bpm",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Bradycardia is defined as a resting heart rate below 60 bpm. Tachycardia is defined as a resting rate above 100 bpm. The intrinsic SA node rate is approximately 100 bpm, but vagal tone normally keeps resting HR around 75 bpm."
+        },
+        {
+          "q": "A 30-year-old patient has a resting HR of 110 bpm. Which term best describes this?",
+          "opts": [
+            "A. Bradycardia",
+            "B. Normal sinus rhythm",
+            "C. Tachycardia",
+            "D. Cardiac reserve",
+            "E. Vagal tone",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Tachycardia is defined as a resting heart rate above 100 bpm. This patient at 110 bpm meets that definition. Bradycardia is below 60 bpm. Normal sinus rhythm is 60–100 bpm."
+        },
+        {
+          "q": "As heart rate rises significantly during exercise, stroke volume eventually decreases. What is the primary reason for this?",
+          "opts": [
+            "A. Decreased sympathetic stimulation of the ventricles",
+            "B. Reduced venous return due to vasoconstriction",
+            "C. Less time in diastole reduces ventricular filling",
+            "D. Increased afterload from elevated blood pressure",
+            "E. Parasympathetic activation suppressing contractility",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "As HR increases, the diastolic interval shortens, leaving less time for the ventricles to fill. This reduces EDV and therefore stroke volume (SV = EDV − ESV). At very high HRs, the fall in SV is not compensated, so CO may actually decrease."
+        },
+        {
+          "q": "The cardiovascular centres that regulate heart rate are located in which structure?",
+          "opts": [
+            "A. Hypothalamus",
+            "B. Cerebral cortex",
+            "C. Medulla oblongata",
+            "D. Pons",
+            "E. Cerebellum",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The cardiovascular centres are located in the medulla oblongata. The cardioaccelerator centre increases HR via sympathetic stimulation, while the cardioinhibitory centre decreases HR via the vagus nerve (parasympathetic)."
+        },
+        {
+          "q": "Which nerve carries parasympathetic signals from the cardioinhibitory centre to the heart?",
+          "opts": [
+            "A. Phrenic nerve",
+            "B. Vagus nerve (CN X)",
+            "C. Glossopharyngeal nerve (CN IX)",
+            "D. Facial nerve (CN VII)",
+            "E. Accessory nerve (CN XI)",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The vagus nerve (cranial nerve X) carries parasympathetic fibres from the cardioinhibitory centre to the SA node, AV node, and portions of the atria and ventricles. Acetylcholine is released, slowing HR by opening K+ channels."
+        },
+        {
+          "q": "Norepinephrine released by cardioaccelerator nerves binds to which receptor on cardiac muscle?",
+          "opts": [
+            "A. Alpha-1 adrenergic receptor",
+            "B. Alpha-2 adrenergic receptor",
+            "C. Beta-1 adrenergic receptor",
+            "D. Beta-2 adrenergic receptor",
+            "E. Muscarinic receptor",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Norepinephrine binds to beta-1 adrenergic receptors on the heart, opening Na+ and Ca2+ ligand-gated channels. This increases the rate of depolarisation, shortening repolarisation, and increasing HR and contractility. Beta-blockers target this receptor to slow HR."
+        },
+        {
+          "q": "Acetylcholine released by the vagus nerve slows heart rate by which mechanism?",
+          "opts": [
+            "A. Blocking calcium channels in the SA node",
+            "B. Opening ligand-gated potassium channels, slowing depolarisation",
+            "C. Stimulating alpha-1 receptors to reduce contractility",
+            "D. Closing sodium channels permanently",
+            "E. Increasing cAMP within cardiomyocytes",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "ACh opens ligand-gated K+ channels in the SA node, allowing K+ to flow out of the cell. This hyperpolarises the cell, slowing the rate of spontaneous depolarisation and extending the time between action potentials, thus decreasing HR."
+        },
+        {
+          "q": "The intrinsic (autonomous) firing rate of the SA node is approximately what, before any autonomic modification?",
+          "opts": [
+            "A. 60 bpm",
+            "B. 75 bpm",
+            "C. 100 bpm",
+            "D. 120 bpm",
+            "E. 150 bpm",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The SA node fires intrinsically at ~100 bpm. Resting HR is ~75 bpm because vagal (parasympathetic) tone is predominant at rest, slowing it down. If both sympathetic and parasympathetic inputs are blocked, the heart defaults to ~100 bpm."
+        },
+        {
+          "q": "Baroreceptors in the aortic sinus detect an increase in blood pressure. What is the expected cardiac response?",
+          "opts": [
+            "A. Increased HR and increased SV",
+            "B. Decreased parasympathetic and increased sympathetic stimulation",
+            "C. Increased parasympathetic and decreased sympathetic stimulation",
+            "D. Release of epinephrine from the adrenal medulla",
+            "E. Constriction of arterioles to raise BP further",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The baroreceptor reflex: increased stretch in the aortic sinus signals the cardiovascular centre to increase parasympathetic (vagal) and decrease sympathetic tone, slowing HR and reducing SV to lower blood pressure back to homeostatic levels."
+        },
+        {
+          "q": "The Bainbridge (atrial) reflex is triggered by which stimulus?",
+          "opts": [
+            "A. Decreased blood pressure in the carotid sinus",
+            "B. Increased venous return stretching the atrial walls",
+            "C. Chemoreceptors detecting low oxygen levels",
+            "D. Limbic system activation during stress",
+            "E. Decreased CO2 levels in arterial blood",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The Bainbridge reflex: increased venous return stretches the atria, activating specialised atrial baroreceptors. The cardiac centre responds by suppressing parasympathetic stimulation and increasing HR, ensuring blood is pumped out of the heart more rapidly."
+        },
+        {
+          "q": "A patient with hyperthyroidism (elevated T3/T4) develops a resting HR of 110 bpm. Which mechanism best explains this?",
+          "opts": [
+            "A. T3 directly blocks potassium channels in the SA node",
+            "B. Thyroid hormones increase vagal tone",
+            "C. T3 enters cardiomyocytes and upregulates beta-adrenergic responsiveness",
+            "D. Thyroid hormones activate muscarinic receptors",
+            "E. T4 directly stimulates the cardioinhibitory centre",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "T3 (active thyroid hormone) can enter cardiomyocytes and alter gene expression, including upregulation of beta-adrenergic receptors, mimicking sympathetic stimulation. This increases HR and contractility. Excess leads to tachycardia."
+        },
+        {
+          "q": "Which ion, when elevated in the blood, increases both heart rate and contractility?",
+          "opts": [
+            "A. Potassium",
+            "B. Sodium",
+            "C. Calcium",
+            "D. Chloride",
+            "E. Magnesium",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Elevated calcium (hypercalcaemia) increases HR and contractility by enhancing cardiomyocyte excitation-contraction coupling. It can shorten the QT interval and widen the T wave. Calcium channel blockers exploit this pathway to slow HR."
+        },
+        {
+          "q": "A patient on a beta-blocker for hypertension has a lower resting heart rate. Which neurotransmitter's receptor is being blocked?",
+          "opts": [
+            "A. Acetylcholine at muscarinic receptors",
+            "B. Norepinephrine at beta-1 adrenergic receptors",
+            "C. Epinephrine at alpha-1 receptors",
+            "D. Dopamine at D2 receptors",
+            "E. Serotonin at 5-HT3 receptors",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Beta-blockers competitively block beta-1 adrenergic receptors, preventing norepinephrine and epinephrine from increasing HR and contractility. This is used in hypertension, heart failure, and arrhythmias."
+        },
+        {
+          "q": "Which of the following correctly describes Mean Arterial Pressure (MAP)?",
+          "opts": [
+            "A. MAP = Systolic + Diastolic / 2",
+            "B. MAP = Diastolic + (Pulse Pressure / 3)",
+            "C. MAP = Systolic − Diastolic",
+            "D. MAP = HR × SV",
+            "E. MAP = CVP + CO",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "MAP = Diastolic + (Systolic − Diastolic) / 3. Because diastole occupies approximately two-thirds of the cardiac cycle at rest, diastolic pressure is weighted more heavily. Pulse pressure = Systolic − Diastolic."
+        },
+        {
+          "q": "A patient has a BP of 120/80 mmHg. What is their pulse pressure?",
+          "opts": [
+            "A. 200 mmHg",
+            "B. 93 mmHg",
+            "C. 40 mmHg",
+            "D. 80 mmHg",
+            "E. 60 mmHg",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Pulse pressure = Systolic − Diastolic = 120 − 80 = 40 mmHg. MAP would be 80 + (40/3) ≈ 93 mmHg. A widened pulse pressure (>60) may indicate aortic regurgitation or increased arterial stiffness."
+        },
+        {
+          "q": "Blood flow through vessels produces audible sounds during BP measurement. What are these sounds called?",
+          "opts": [
+            "A. Heart murmurs",
+            "B. Korotkoff sounds",
+            "C. Bruit",
+            "D. Rales",
+            "E. Stridor",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Korotkoff sounds are heard through a stethoscope during blood pressure measurement with a sphygmomanometer. They result from turbulent blood flow when the cuff partially occludes the artery. The first sound marks systolic pressure and disappearance marks diastolic."
+        },
+        {
+          "q": "According to Poiseuille's law, which factor has the GREATEST effect on vascular resistance?",
+          "opts": [
+            "A. Blood viscosity",
+            "B. Vessel length",
+            "C. Vessel radius",
+            "D. Blood velocity",
+            "E. Heart rate",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Resistance = 8ηλ / πr⁴. Vessel radius is raised to the 4th power, making it by far the most powerful determinant of resistance. Halving the radius increases resistance 16-fold. This is why arterioles (resistance vessels) play the key role in regulating blood flow."
+        },
+        {
+          "q": "A patient develops polycythaemia vera (increased RBCs). How does this primarily affect blood flow?",
+          "opts": [
+            "A. Increases blood flow by raising oxygen delivery",
+            "B. Decreases resistance by increasing vessel diameter",
+            "C. Increases viscosity, raising resistance and decreasing blood flow",
+            "D. Increases compliance of arteries",
+            "E. Stimulates vasodilation via baroreceptors",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Blood viscosity is determined largely by formed elements (especially RBCs) and plasma proteins. Polycythaemia raises RBC count, increasing viscosity, which increases resistance (Resistance ∝ viscosity) and therefore decreases blood flow at a given pressure."
+        },
+        {
+          "q": "Which of the following will INCREASE blood flow through a vessel?",
+          "opts": [
+            "A. Increased vessel length",
+            "B. Increased blood viscosity",
+            "C. Vasoconstriction",
+            "D. Vasodilation",
+            "E. Increased afterload",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "Vasodilation increases vessel radius, dramatically reducing resistance (R ∝ 1/r⁴), and therefore increasing blood flow. Vasoconstriction does the opposite. Increased length and viscosity both raise resistance and reduce flow."
+        },
+        {
+          "q": "Veins contain approximately what percentage of total blood volume at any given time?",
+          "opts": [
+            "A. 7%",
+            "B. 13%",
+            "C. 25%",
+            "D. 64%",
+            "E. 84%",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "Systemic veins contain approximately 64% of total blood volume at rest, reflecting their high capacitance. This is why they are called capacitance vessels. They can distend readily to store large volumes at low pressure."
+        },
+        {
+          "q": "Which two physiological pumps assist venous return to the heart?",
+          "opts": [
+            "A. Cardiac pump and respiratory pump",
+            "B. Skeletal muscle pump and respiratory pump",
+            "C. Smooth muscle pump and lymphatic pump",
+            "D. Diaphragm pump and arterial recoil",
+            "E. Baroreceptor reflex and chemoreceptor reflex",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Venous return is assisted by (1) the skeletal muscle pump — muscular contraction compresses veins and pushes blood toward the heart via one-way valves; and (2) the respiratory pump — inhalation decreases thoracic pressure, drawing blood into thoracic veins."
+        },
+        {
+          "q": "Which layer of a blood vessel wall is most responsible for vasoconstriction and vasodilation?",
+          "opts": [
+            "A. Tunica intima",
+            "B. Tunica media",
+            "C. Tunica externa",
+            "D. Endothelium",
+            "E. Basement membrane",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The tunica media contains layers of smooth muscle and elastic fibres. Contraction of circular smooth muscle fibres (vasoconstriction) narrows the lumen, while relaxation (vasodilation) widens it. The tunica media is thickest in arteries."
+        },
+        {
+          "q": "Which layer of a blood vessel contains the endothelium?",
+          "opts": [
+            "A. Tunica externa",
+            "B. Tunica media",
+            "C. Tunica intima",
+            "D. External elastic membrane",
+            "E. Vasa vasorum",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The tunica intima is the innermost layer, lined by a simple squamous epithelium called the endothelium. It is continuous throughout the entire vascular system and regulates exchange between blood and vessel walls, as well as altering blood flow."
+        },
+        {
+          "q": "What is the function of the vasa vasorum?",
+          "opts": [
+            "A. Control smooth muscle contraction in vessel walls",
+            "B. Provide nourishment to the cells of blood vessel walls",
+            "C. Regulate blood viscosity",
+            "D. Drain excess interstitial fluid",
+            "E. Detect blood pressure changes in vessel walls",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Blood flows too fast through large vessels to nourish their own walls. The vasa vasorum are tiny blood vessels within the vessel walls (particularly the tunica externa and outer tunica media) that supply nutrients and oxygen to these cells. Arterial disease is partly attributed to difficulty nourishing arterial walls."
+        },
+        {
+          "q": "The nervi vasorum refers to which structure?",
+          "opts": [
+            "A. Baroreceptors within the aortic arch",
+            "B. Minute nerves within vessel walls controlling smooth muscle contraction",
+            "C. Sympathetic ganglia supplying the SA node",
+            "D. Branches of the vagus nerve to the coronary arteries",
+            "E. Lymphatic vessels accompanying blood vessels",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The nervi vasorum are minute nerve fibres within the walls of blood vessels that control the contraction and dilation of smooth muscle in the tunica media, regulating vessel diameter and therefore blood flow and pressure."
+        },
+        {
+          "q": "Which type of artery is characterised by a high proportion of elastic fibres, large lumen diameter, and the ability to expand and recoil with each heartbeat?",
+          "opts": [
+            "A. Muscular artery",
+            "B. Arteriole",
+            "C. Elastic (conducting) artery",
+            "D. Metarteriole",
+            "E. Capillary",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Elastic (conducting) arteries (e.g. aorta, pulmonary artery) have a high proportion of elastic fibres in all three tunics. They expand to accept the bolus of blood from ventricular systole and recoil during diastole, helping maintain a continuous pressure gradient."
+        },
+        {
+          "q": "Muscular arteries differ from elastic arteries in that they:",
+          "opts": [
+            "A. Are located closer to the heart",
+            "B. Have a thinner tunica media",
+            "C. Have a thick tunica media and play a greater role in vasoconstriction",
+            "D. Contain no smooth muscle",
+            "E. Are the primary site of gas exchange",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Muscular arteries are located further from the heart and have a thick tunica media with a high proportion of smooth muscle. They are less distensible than elastic arteries and play a major role in vasoconstriction to regulate blood distribution."
+        },
+        {
+          "q": "Arterioles are described as 'resistance vessels' because they:",
+          "opts": [
+            "A. Have the largest lumens in the vascular system",
+            "B. Are critical in slowing blood flow due to their very small diameter",
+            "C. Contain the most valves",
+            "D. Have the highest proportion of elastic fibres",
+            "E. Are the primary site of nutrient exchange",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Arterioles have very small diameters and only 1–2 layers of smooth muscle in the tunica media. Their small radius generates high resistance (R ∝ 1/r⁴), making them the primary regulators of blood flow distribution to capillary beds."
+        },
+        {
+          "q": "Which type of capillary has the most permeable walls, with extensive intercellular gaps, incomplete basement membrane, and fenestrations, and is found in the liver and spleen?",
+          "opts": [
+            "A. Continuous capillary",
+            "B. Fenestrated capillary",
+            "C. Sinusoid capillary",
+            "D. Metarteriole",
+            "E. Thoroughfare channel",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Sinusoid (discontinuous) capillaries are the least common and most permeable, with large intercellular gaps, incomplete basement membrane, and fenestrations. They allow large molecules and cells to pass through and are found in the liver, spleen, bone marrow, and some endocrine glands."
+        },
+        {
+          "q": "Fenestrated capillaries differ from continuous capillaries in that they:",
+          "opts": [
+            "A. Have a complete endothelial lining with no gaps",
+            "B. Have pores through the endothelial lining allowing larger molecule exchange",
+            "C. Are found exclusively in the brain",
+            "D. Lack a basement membrane entirely",
+            "E. Cannot allow gas exchange",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Fenestrated capillaries have pores (fenestrations) through the endothelial cells in addition to tight junctions. This makes them more permeable than continuous capillaries. They are found in the small intestine, kidneys, choroid plexus, and endocrine glands."
+        },
+        {
+          "q": "Continuous capillaries in the brain differ from those elsewhere in the body because they:",
+          "opts": [
+            "A. Lack a basement membrane",
+            "B. Are more permeable to large proteins",
+            "C. Form the blood-brain barrier with tight junctions and no intercellular clefts",
+            "D. Have large fenestrations to allow drug entry",
+            "E. Contain smooth muscle to regulate flow",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Cerebral continuous capillaries form the blood-brain barrier. They have complete tight junctions with no intercellular clefts, a thick basal membrane, and astrocyte end-feet surrounding them. This strictly limits what can enter the CNS."
+        },
+        {
+          "q": "Precapillary sphincters regulate blood flow by:",
+          "opts": [
+            "A. Acting as valves in large veins to prevent backflow",
+            "B. Controlling flow from metarterioles into capillary beds based on local tissue needs",
+            "C. Increasing cardiac output during exercise",
+            "D. Detecting blood pressure changes and signalling the medulla",
+            "E. Generating the pulse wave felt at the wrist",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Precapillary sphincters are rings of smooth muscle at the origin of capillaries from metarterioles. They open when local tissue O2 is low and metabolic waste products accumulate, allowing blood into that capillary bed. When closed, blood is shunted through thoroughfare channels."
+        },
+        {
+          "q": "A patient with varicose veins has incompetent venous valves in their legs. Which of the following best explains why this causes venous pooling?",
+          "opts": [
+            "A. Veins lose their tunica media and collapse",
+            "B. Blood cannot flow unidirectionally and pools due to gravity",
+            "C. Valves normally pump blood actively; without them there is no venous pressure",
+            "D. Venous smooth muscle atrophies without valve stimulation",
+            "E. Incompetent valves cause arteriovenous shunting",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Venous valves ensure unidirectional blood flow toward the heart. When valves become incompetent, blood refluxes and pools due to gravitational forces, particularly in the lower limbs. The skeletal muscle pump cannot compensate adequately, leading to venous hypertension and varicosities."
+        },
+        {
+          "q": "Hydrostatic pressure in capillaries (CHP) drives fluid in which direction?",
+          "opts": [
+            "A. From interstitial fluid into capillaries (reabsorption)",
+            "B. From capillaries into interstitial fluid (filtration)",
+            "C. From lymphatic vessels into capillaries",
+            "D. From arterioles into venules",
+            "E. From plasma proteins into the interstitium",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Capillary hydrostatic pressure (CHP) is the outward force of blood pressure against capillary walls. It drives filtration — fluid movement from the capillary lumen into the interstitial space. It is opposed by blood colloidal osmotic pressure (BCOP) and interstitial fluid hydrostatic pressure."
+        },
+        {
+          "q": "Blood colloidal osmotic pressure (BCOP) is generated primarily by which component of blood?",
+          "opts": [
+            "A. Erythrocytes",
+            "B. Electrolytes such as sodium and chloride",
+            "C. Plasma proteins (particularly albumin)",
+            "D. Glucose",
+            "E. Carbon dioxide",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "BCOP is generated by large plasma proteins (mainly albumin) that cannot cross the capillary membrane. These create an osmotic gradient that draws water back into the capillary (reabsorption), opposing filtration driven by CHP."
+        },
+        {
+          "q": "At the arterial end of a capillary, net filtration pressure is approximately +10 mmHg. This means:",
+          "opts": [
+            "A. Fluid is being reabsorbed into the capillary",
+            "B. There is no net fluid movement",
+            "C. Fluid is moving out of the capillary into the interstitium",
+            "D. Osmotic pressure exceeds hydrostatic pressure",
+            "E. The capillary is in venous territory",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "A positive net filtration pressure means CHP exceeds BCOP + IFHP, so fluid is pushed out of the capillary (filtration). At the arterial end CHP (~35 mmHg) exceeds BCOP (~26 mmHg), giving net outward movement. At the venous end CHP falls and reabsorption predominates."
+        },
+        {
+          "q": "Which system is responsible for collecting the excess fluid filtered from capillaries that is not reabsorbed into the venous end?",
+          "opts": [
+            "A. The portal venous system",
+            "B. The lymphatic system",
+            "C. The thoracic aorta",
+            "D. The pulmonary venous system",
+            "E. The sinusoids of the liver",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Approximately 20 L of plasma is filtered into the interstitium per day; ~17 L is reabsorbed at the venous end of capillaries. The remaining ~3 L is collected by lymphatic capillaries and returned to the bloodstream via lymphatic ducts draining into the subclavian veins."
+        },
+        {
+          "q": "A patient with severe hypoalbuminaemia (low albumin) develops oedema. Which physiological mechanism explains this?",
+          "opts": [
+            "A. Increased capillary hydrostatic pressure pushes more fluid out",
+            "B. Increased arteriolar resistance reduces venous return",
+            "C. Reduced BCOP means less reabsorption occurs at venous end of capillaries",
+            "D. Lymphatic vessels become overactive and drain the interstitium",
+            "E. Venous valves become incompetent due to lack of protein",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Albumin is the main contributor to BCOP. With low albumin, BCOP falls, reducing the osmotic force drawing fluid back into capillaries. Net filtration pressure increases throughout the capillary bed, and more fluid remains in the interstitium — causing oedema."
+        },
+        {
+          "q": "Lymph is NOT actively pumped by the heart. Which mechanisms move lymph through lymphatic vessels?",
+          "opts": [
+            "A. Cardiac contractions transmitted through arterial pulsations",
+            "B. Contraction of smooth muscle in lymphatic walls only",
+            "C. Skeletal muscle contractions and breathing movements",
+            "D. Pressure from the subclavian vein",
+            "E. Osmotic pressure from high protein lymph fluid",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Lymph moves through skeletal muscle contractions (compressing lymphatic vessels) and breathing (respiratory pump changes intrathoracic pressure). One-way valves in lymphatic vessels ensure unidirectional flow. This is analogous to the venous pumps."
+        },
+        {
+          "q": "Into which vein does the thoracic duct ultimately drain?",
+          "opts": [
+            "A. Right subclavian vein",
+            "B. Right internal jugular vein",
+            "C. Left subclavian vein",
+            "D. Superior vena cava",
+            "E. Inferior vena cava",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The thoracic duct drains into the left subclavian vein (at the junction with the left internal jugular vein). The right lymphatic duct drains into the right subclavian vein. The thoracic duct collects lymph from approximately three-quarters of the body."
+        },
+        {
+          "q": "Which side of the body is drained by the right lymphatic duct?",
+          "opts": [
+            "A. The entire lower body",
+            "B. The left upper limb and left thorax",
+            "C. The right upper limb, right side of the head, and right thorax",
+            "D. The right side of the abdomen and right lower limb",
+            "E. The entire right side of the body",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The right lymphatic duct drains lymph from the right upper limb, the right side of the head and neck, and the right side of the thorax. All other regions — including the lower body and left upper limb — drain into the thoracic duct."
+        },
+        {
+          "q": "In the small intestine, specialised lymphatic capillaries called lacteals absorb which substances?",
+          "opts": [
+            "A. Glucose and amino acids",
+            "B. Water-soluble vitamins B and C",
+            "C. Dietary lipids and lipid-soluble vitamins",
+            "D. Iron and calcium",
+            "E. Electrolytes and water",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Lacteals are lymphatic capillaries in the villi of the small intestine. They absorb dietary triglycerides, long-chain fatty acids, and lipid-soluble vitamins (A, D, E, K) packaged as chylomicrons. The resulting milky fluid is called chyle."
+        },
+        {
+          "q": "A patient presents with pitting oedema of the legs following cancer surgery that involved lymph node removal. The most likely cause is:",
+          "opts": [
+            "A. Increased capillary hydrostatic pressure from heart failure",
+            "B. Lymphatic obstruction preventing drainage of interstitial fluid",
+            "C. Hypoalbuminaemia from nutritional deficiency",
+            "D. Venous valve incompetence from thrombosis",
+            "E. Increased blood viscosity from polycythaemia",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Removal of lymph nodes (lymphadenectomy) during cancer surgery can obstruct lymphatic drainage, causing lymphoedema. Excess interstitial fluid that cannot be returned to circulation accumulates in tissues, causing non-pitting or pitting oedema depending on severity."
+        },
+        {
+          "q": "Which of the following is a feature of veins compared to arteries?",
+          "opts": [
+            "A. Thicker walls and smaller lumens",
+            "B. Higher blood pressure",
+            "C. Thinner walls, larger lumens, and presence of valves",
+            "D. Greater proportion of smooth muscle in the tunica media",
+            "E. Absence of a tunica intima",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Veins have thinner walls and larger, more irregular lumens than arteries. Many veins contain one-way valves to prevent backflow, especially in the lower limbs. Their walls have less smooth muscle and elastic tissue, as they operate under lower pressure."
+        },
+        {
+          "q": "A patient's pulmonary artery is carrying blood from the right ventricle. What is the oxygen saturation of this blood?",
+          "opts": [
+            "A. ~98% — fully oxygenated",
+            "B. ~75% — deoxygenated",
+            "C. ~50% — severely hypoxic",
+            "D. ~100% — pulmonary circulation carries oxygenated blood",
+            "E. Variable — depends on tidal volume",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The pulmonary artery is unique: it carries deoxygenated blood from the right ventricle to the lungs. Normal mixed venous oxygen saturation is ~75%. The pulmonary veins, conversely, carry oxygenated blood back to the left atrium."
+        },
+        {
+          "q": "The pulmonary vasculature is described as a 'low pressure, high capacitance' system. What does this mean?",
+          "opts": [
+            "A. Blood flows slowly and the vessels have thick, muscular walls",
+            "B. High pressures are needed to perfuse the lung bases",
+            "C. The system operates at low pressures and vessels distend easily to accommodate blood",
+            "D. High resistance prevents over-perfusion of alveoli",
+            "E. Pulmonary veins have the highest pressure in the circuit",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The pulmonary circulation operates at much lower pressures than the systemic circulation (~25/10 mmHg vs 120/80 mmHg). Its vessels are thin-walled and highly distensible (high capacitance), optimised for gas exchange rather than bulk flow against resistance."
+        },
+        {
+          "q": "A 55-year-old male smokes 30 cigarettes per day and is found to have stiffened, non-compliant arteries. What is the expected effect on blood pressure?",
+          "opts": [
+            "A. Decreased blood pressure due to reduced cardiac output",
+            "B. Increased blood pressure due to reduced vascular compliance",
+            "C. No change as compliance only affects veins",
+            "D. Decreased blood pressure as stiff vessels cause vasodilation",
+            "E. Increased diastolic pressure only, with normal systolic pressure",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Vascular compliance is the ability of a vessel to expand and contract. Stiff arteries (e.g. from atherosclerosis or smoking) have reduced compliance, meaning they cannot accommodate the pulse wave by expanding. This increases vascular resistance and raises blood pressure, particularly systolic pressure."
+        },
+        {
+          "q": "The tunica externa (tunica adventitia) is the THICKEST layer in which vessel type?",
+          "opts": [
+            "A. Elastic arteries",
+            "B. Muscular arteries",
+            "C. Arterioles",
+            "D. Veins",
+            "E. Capillaries",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The tunica externa is the thickest layer in veins, sometimes exceeding the tunica media. It consists of collagenous and elastic fibres plus some smooth muscle. In veins, the externa provides structural support and contains the vasa vasorum and nervi vasorum."
+        },
+        {
+          "q": "Which of the following best describes the internal elastic membrane (lamina)?",
+          "opts": [
+            "A. A layer of smooth muscle separating the tunica media from tunica externa",
+            "B. A thick distinct layer of elastic fibres forming the boundary between tunica intima and tunica media, present in large arteries",
+            "C. The basement membrane underlying the endothelium",
+            "D. A fenestrated layer found only in sinusoid capillaries",
+            "E. Collagenous fibres in the tunica externa",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The internal elastic membrane is a distinct layer of elastic fibres at the boundary between the tunica intima and tunica media in large arteries. It has small openings permitting material exchange between the two layers. It is absent in veins, which is one histological way to distinguish arteries from veins."
+        },
+        {
+          "q": "Which of the following factors increases stroke volume via increased preload?",
+          "opts": [
+            "A. Increased parasympathetic stimulation",
+            "B. Increased venous return stretching the ventricle (Frank-Starling mechanism)",
+            "C. Increased afterload from hypertension",
+            "D. Administration of a beta-blocker",
+            "E. Decreased heart rate",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Preload is the degree of ventricular filling at end-diastole (EDV). Increased venous return stretches the ventricular walls, increasing sarcomere length and contractile force (Frank-Starling law), which increases SV. Increased contractility (e.g. from sympathetic stimulation) also increases SV via a different mechanism."
+        },
+        {
+          "q": "A patient is given a drug that blocks the sympathetic nervous system to the heart. Which of the following changes would you expect?",
+          "opts": [
+            "A. Increased HR and increased contractility",
+            "B. Decreased HR and decreased contractility",
+            "C. Increased HR with decreased SV",
+            "D. No change as parasympathetic tone dominates",
+            "E. Vasodilation of arterioles only",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Sympathetic stimulation normally increases HR (chronotropy) and contractility (inotropy). Blocking sympathetic input removes this drive, resulting in decreased HR and decreased SV. This is the mechanism of beta-blockers used in hypertension and heart failure."
+        },
+        {
+          "q": "A patient with severe haemorrhage loses 30% of blood volume. Which of the following is the expected baroreceptor response?",
+          "opts": [
+            "A. Increased parasympathetic tone to slow HR and lower BP",
+            "B. Decreased baroreceptor firing, leading to increased sympathetic stimulation and increased HR",
+            "C. Activation of chemoreceptors only with no cardiovascular change",
+            "D. Vasodilation to reduce afterload and protect remaining perfusion",
+            "E. Atrial reflex causes decreased HR",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Haemorrhage reduces blood volume and BP, decreasing stretch on baroreceptors, which reduces their firing rate. The cardiovascular centre interprets this as low pressure and increases sympathetic stimulation (tachycardia, increased contractility, vasoconstriction) to restore BP — the baroreceptor reflex."
+        },
+        {
+          "q": "Vasomotion in capillary beds refers to:",
+          "opts": [
+            "A. Active pumping of blood by capillary endothelium",
+            "B. Irregular pulsating flow regulated by chemical signals in response to local tissue conditions",
+            "C. Rhythmic contraction of venular smooth muscle",
+            "D. The pulse wave transmitted from the aorta",
+            "E. Flow reversal in capillaries during diastole",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Vasomotion is the irregular, pulsating flow of blood through capillaries, regulated by local chemical signals such as O2 levels, CO2, and metabolic waste products. It ensures that capillary beds open and close dynamically based on local tissue metabolic needs."
+        },
+        {
+          "q": "Which of the following correctly distinguishes diapedesis?",
+          "opts": [
+            "A. The process by which red blood cells pass through fenestrated capillaries",
+            "B. The movement of white blood cells through vessel walls into tissues at venules",
+            "C. Filtration of plasma proteins at the arterial end of capillaries",
+            "D. Reabsorption of lymph at the thoracic duct",
+            "E. The passage of platelets through the endothelium during clot formation",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Diapedesis (emigration) is the process by which white blood cells adhere to the endothelial lining of venules and squeeze between adjacent endothelial cells to enter the interstitial fluid, particularly during inflammation. Venules and capillaries are the primary sites."
+        },
+        {
+          "q": "A patient has a resting systolic BP of 145 mmHg and diastolic of 92 mmHg. What is their approximate MAP?",
+          "opts": [
+            "A. 109 mmHg",
+            "B. 118 mmHg",
+            "C. 92 mmHg",
+            "D. 145 mmHg",
+            "E. 53 mmHg",
+            "F. Option F"
+          ],
+          "ans": "A",
+          "exp": "MAP = Diastolic + (Systolic − Diastolic) / 3 = 92 + (145 − 92) / 3 = 92 + 53/3 = 92 + 17.7 ≈ 109.7 mmHg. A MAP above 100 mmHg at rest is abnormal and reflects hypertension."
+        },
+        {
+          "q": "Systemic capillaries account for approximately what percentage of total blood volume?",
+          "opts": [
+            "A. 2%",
+            "B. 7%",
+            "C. 13%",
+            "D. 25%",
+            "E. 64%",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Systemic capillaries hold approximately 7% of total blood volume. The majority (64%) is held in systemic veins. Systemic arteries hold 13%, and the heart and pulmonary circulation account for the remainder."
+        },
+        {
+          "q": "Which statement about the tunica media is FALSE?",
+          "opts": [
+            "A. It is the middle layer of blood vessel walls",
+            "B. It is thicker in arteries than in veins",
+            "C. It contains smooth muscle and elastic fibres",
+            "D. It is the thickest layer in large veins",
+            "E. Contraction of its circular smooth muscle causes vasoconstriction",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The tunica media is the thickest layer in arteries, not veins. In veins, the tunica externa is typically the thickest layer. The tunica media contains smooth muscle and elastic fibres and is responsible for vasoconstriction and vasodilation."
+        },
+        {
+          "q": "A 45-year-old runner completes a marathon. During the race, which of the following cardiovascular adaptations would you expect?",
+          "opts": [
+            "A. Decreased HR, increased SV, increased CO",
+            "B. Increased HR, increased SV initially, greatly increased CO",
+            "C. Decreased CO with compensatory vasodilation",
+            "D. Increased parasympathetic tone to manage increased metabolic demand",
+            "E. Decreased venous return due to skeletal muscle vasoconstriction",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "During exercise, sympathetic stimulation increases HR and contractility (increasing SV). CO rises dramatically — up to 4–5× resting in untrained individuals, and 7–8× in elite athletes. Venous return also increases due to the skeletal muscle and respiratory pumps, and vasodilation in exercising muscle increases blood flow."
+        },
+        {
+          "q": "The cisterna chyli is associated with which part of the lymphatic system?",
+          "opts": [
+            "A. The right lymphatic duct at the right subclavian vein",
+            "B. The beginning of the thoracic duct just below the diaphragm",
+            "C. The lymphatic capillaries in the small intestinal villi",
+            "D. Lymph nodes in the right axilla",
+            "E. The thoracic duct at the level of the thoracic inlet",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The cisterna chyli is a sac-like structure at the origin of the thoracic duct, just below the diaphragm. It receives lymph from the lower abdomen, pelvis, and lower limbs via the left and right lumbar trunks and the intestinal trunk."
+        },
+        {
+          "q": "A patient develops right heart failure with elevated venous pressure. How would this affect capillary fluid dynamics?",
+          "opts": [
+            "A. Increased BCOP causing increased reabsorption and reduced oedema",
+            "B. Reduced CHP causing fluid to remain in capillaries",
+            "C. Increased venous CHP causing increased filtration and oedema",
+            "D. Increased lymphatic drainage compensating for elevated pressure",
+            "E. Arteriolar vasoconstriction reducing capillary perfusion",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Right heart failure causes elevated venous pressure, which backs up into the capillary bed, raising CHP. This increases net filtration pressure (more fluid leaves capillaries), overwhelming lymphatic drainage capacity and causing oedema — particularly in dependent areas like the ankles."
+        },
+        {
+          "q": "Which of the following best describes the function of the endothelium in the tunica intima?",
+          "opts": [
+            "A. Provides structural support through collagen production only",
+            "B. Acts as a boundary between blood and vessel wall, regulates exchange and blood flow",
+            "C. Controls vasoconstriction via smooth muscle",
+            "D. Produces the pulse wave through rhythmic contraction",
+            "E. Contains valves to prevent backflow",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The endothelium is a specialised simple squamous epithelium lining all blood vessels continuously. It forms the boundary between blood and vessel wall, regulates capillary exchange, produces vasoactive substances (e.g. nitric oxide for vasodilation), and modulates blood flow and clotting."
+        },
+        {
+          "q": "During inspiration, intrathoracic pressure decreases. How does this contribute to venous return?",
+          "opts": [
+            "A. Arterial blood pressure increases, pushing blood into the venae cavae",
+            "B. Pressure in thoracic veins falls below abdominal venous pressure, drawing blood toward the heart",
+            "C. Diaphragm compression of the abdomen reduces abdominal venous pressure",
+            "D. Increased intrathoracic pressure compresses thoracic veins",
+            "E. The lungs directly pump blood into the left atrium",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "During inhalation, the diaphragm descends and thoracic volume increases, causing intrathoracic pressure to fall. This lowers pressure in thoracic veins below that in abdominal veins, creating a pressure gradient that drives venous blood toward the right atrium — the respiratory pump."
+        },
+        {
+          "q": "Which chemoreceptor-mediated signals increase HR and force of cardiac contraction?",
+          "opts": [
+            "A. Increased O2 and decreased CO2",
+            "B. Decreased O2, increased CO2, increased H+, and increased lactic acid",
+            "C. Decreased lactic acid and increased pH",
+            "D. Increased O2 with decreased H+",
+            "E. Decreased CO2 and normal O2",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Chemoreceptors detect metabolic changes indicating increased tissue activity or poor perfusion. Low O2, high CO2, elevated H+ (acidosis), and high lactic acid signal the cardiovascular centre to increase sympathetic drive, raising HR and contractility to improve oxygen delivery."
+        },
+        {
+          "q": "What is the primary role of the lymph nodes through which lymph passes?",
+          "opts": [
+            "A. Production of erythrocytes",
+            "B. Filtration of lymph and immune surveillance",
+            "C. Reabsorption of filtered plasma proteins",
+            "D. Secretion of clotting factors",
+            "E. Regulation of lymph flow rate",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Lymph nodes filter lymph fluid, removing pathogens, debris, and cancer cells. They house lymphocytes (B and T cells) and macrophages for immune surveillance. There are approximately 500–600 lymph nodes in the human body, concentrated in the groin, axillae, neck, chest, and abdomen."
+        },
+        {
+          "q": "A patient with atherosclerosis has significant narrowing (stenosis) of a coronary artery. Using Poiseuille's law, if the radius is halved, resistance increases by what factor?",
+          "opts": [
+            "A. 2-fold",
+            "B. 4-fold",
+            "C. 8-fold",
+            "D. 16-fold",
+            "E. 32-fold",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "According to Poiseuille's law, resistance ∝ 1/r⁴. If radius is halved (r → r/2), resistance = 1/(r/2)⁴ = 16/r⁴ — a 16-fold increase. This dramatically reduces blood flow to the myocardium, explaining why even partial coronary stenosis causes significant ischaemia."
+        },
+        {
+          "q": "The Starling forces at a capillary are: CHP = 35 mmHg, BCOP = 26 mmHg, IFHP ≈ 0 mmHg. What is the net filtration pressure?",
+          "opts": [
+            "A. −9 mmHg (reabsorption)",
+            "B. 0 mmHg (equilibrium)",
+            "C. +9 mmHg (filtration)",
+            "D. +35 mmHg (filtration)",
+            "E. +61 mmHg (filtration)",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Net filtration pressure = (CHP + interstitial colloid osmotic pressure) − (BCOP + IFHP). Simplified: NFP = CHP − BCOP − IFHP = 35 − 26 − 0 = +9 mmHg. A positive value means net filtration (fluid leaves the capillary). This occurs at the arterial end."
+        },
+        {
+          "q": "Which of the following best explains why arterial disease is more common than venous disease?",
+          "opts": [
+            "A. Arteries are exposed to higher osmotic pressures",
+            "B. Arterial blood contains more metabolic waste products",
+            "C. Vasa vasorum in arteries are under high pressure and situated in outer layers, making it harder to nourish arterial walls",
+            "D. Venous valves protect veins from high-pressure damage",
+            "E. Arteries contain more smooth muscle which predisposes them to inflammation",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Arteries operate under high intraluminal pressure, meaning vasa vasorum must be located in the outer layers to avoid being collapsed. This makes it harder to nourish the inner arterial wall. Veins, with lower pressure, can have vasa vasorum closer to the lumen. This nutritional disadvantage is thought to contribute to the higher prevalence of arterial disease."
+        },
+        {
+          "q": "A patient's cardiac output is measured at 6.0 L/min with a heart rate of 80 bpm. What is their stroke volume?",
+          "opts": [
+            "A. 480 mL",
+            "B. 75 mL",
+            "C. 60 mL",
+            "D. 0.075 L",
+            "E. Both B and D",
+            "F. Option F"
+          ],
+          "ans": "E",
+          "exp": "SV = CO / HR = 6000 mL / 80 = 75 mL = 0.075 L. Both B (75 mL) and D (0.075 L) are the same value expressed in different units, so E is correct. This is within the normal range of 55–100 mL."
+        },
+        {
+          "q": "A patient is given atropine (a muscarinic ACh receptor blocker). What would you expect to happen to their heart rate?",
+          "opts": [
+            "A. HR decreases due to loss of parasympathetic tone",
+            "B. HR increases as parasympathetic inhibition is removed, allowing SA node to approach its intrinsic rate",
+            "C. HR is unchanged as atropine only affects smooth muscle",
+            "D. HR decreases then increases due to baroreceptor compensation",
+            "E. HR increases then decreases as sympathetic tone compensates",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Atropine blocks muscarinic receptors, blocking parasympathetic (vagal) effects on the heart. This removes the brake on the SA node, allowing HR to approach its intrinsic rate of ~100 bpm or higher. Atropine is used clinically for symptomatic bradycardia."
+        }
+      ]
+    },
+    {
+      "id": "test_heart_w5_001",
+      "name": "Week 5 - Heart",
+      "moduleId": "mod_heart_w5",
+      "questions": [
+        {
+          "q": "The thorax is bounded by which of the following structures?",
+          "opts": [
+            "A. Vertebrae, ribs, costal cartilages, and the sternum",
+            "B. Vertebrae, clavicles, scapulae, and the sternum",
+            "C. Ribs, costal cartilages, diaphragm, and clavicles",
+            "D. Sternum, vertebrae, diaphragm, and clavicles",
+            "E. Ribs, vertebrae, manubrium, and xiphoid only",
+            "F. Option F"
+          ],
+          "ans": "A",
+          "exp": "The thorax (chest) is bound by the vertebrae posteriorly, ribs laterally, costal cartilages, and the sternum anteriorly. The clavicles and scapulae are shoulder girdle bones, not thoracic cage boundaries."
+        },
+        {
+          "q": "Which of the following structures does NOT reside in the mediastinum?",
+          "opts": [
+            "A. Heart",
+            "B. Trachea",
+            "C. Oesophagus",
+            "D. Lung parenchyma",
+            "E. Great blood vessels",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The mediastinum is the central compartment between the pleural sacs. It contains the heart, great blood vessels, trachea, oesophagus, and lymph nodes. Lung parenchyma lies within the pleural sacs, not in the mediastinum itself."
+        },
+        {
+          "q": "At which vertebral level does the sternal angle (Angle of Louis) lie?",
+          "opts": [
+            "A. T2",
+            "B. T2/3",
+            "C. T4/5",
+            "D. T8",
+            "E. T9",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The sternal angle (Angle of Louis) lies at T4/5. It marks the manubriosternal junction and is a key landmark dividing the superior from the inferior mediastinum. T2 corresponds to the superior angle of the scapula; T8 is the inferior angle of the scapula; T9 is the xiphisternal joint."
+        },
+        {
+          "q": "Which vertebral level corresponds to the xiphisternal joint?",
+          "opts": [
+            "A. T4/5",
+            "B. T7",
+            "C. T8",
+            "D. T9",
+            "E. L1",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The xiphisternal joint lies at T9. T4/5 is the sternal angle; T8 is the inferior angle of the scapula; L3 corresponds to the lowest part of the costal margin."
+        },
+        {
+          "q": "Costal cartilages connect ribs 8, 9, and 10 to which structure?",
+          "opts": [
+            "A. The sternum directly",
+            "B. The cartilage of the rib above",
+            "C. The abdominal musculature",
+            "D. The xiphoid process",
+            "E. The thoracic vertebrae",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Ribs 8, 9, and 10 are 'false ribs' — their costal cartilages connect to the cartilage of the rib above, not directly to the sternum. Ribs 1–7 connect directly to the sternum; ribs 11–12 are floating ribs that end in abdominal musculature."
+        },
+        {
+          "q": "Which part of the sternum is composed of 4 'sternebrae' that fuse between puberty and age 25?",
+          "opts": [
+            "A. Manubrium",
+            "B. Xiphoid process",
+            "C. Body of the sternum",
+            "D. Clavicular notch",
+            "E. Costal margin",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The body of the sternum is composed of 4 sternebrae that fuse between puberty and around 25 years of age. The manubrium articulates with the clavicles and first costal cartilages. The xiphoid is the smallest and most inferior part."
+        },
+        {
+          "q": "Which of the following accurately describes the xiphoid process?",
+          "opts": [
+            "A. The largest part of the sternum",
+            "B. Composed of 4 fused sternebrae",
+            "C. Articulates with the clavicles",
+            "D. Often remains cartilaginous into adult life",
+            "E. Located at the level of T4/5",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The xiphoid is the smallest part of the sternum and often remains cartilaginous into adult life, though it may later ossify. It lies at T9. It does not articulate with the clavicles — that is the manubrium."
+        },
+        {
+          "q": "During inspiration, which of the following occurs?",
+          "opts": [
+            "A. Respiratory muscles relax",
+            "B. Intrapleural pressure becomes positive",
+            "C. The diameters of the thorax increase and lung tissue expands",
+            "D. Elastic recoil of the lungs forces air out",
+            "E. The thoracic capacity reduces",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "During inspiration, the respiratory muscles contract, increasing the diameters of the thorax. This creates a negative intrapleural pressure, expanding the lung tissue and drawing air in. Elastic recoil and muscle relaxation describe expiration."
+        },
+        {
+          "q": "The pericardium serves which of the following functions?",
+          "opts": [
+            "A. Generates cardiac action potentials",
+            "B. Restricts heart movement and prevents overfilling with blood",
+            "C. Conducts impulses from the SA node to the AV node",
+            "D. Secretes hormones that regulate heart rate",
+            "E. Forms the myocardial layer of the heart wall",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The pericardium is a sac that covers the heart. It restricts heart movements within the thoracic cavity and prevents overfilling with blood. The pericardial cavity contains serous fluid that lubricates and reduces friction during contraction."
+        },
+        {
+          "q": "The pericardial cavity lies between which two layers?",
+          "opts": [
+            "A. Fibrous pericardium and myocardium",
+            "B. Epicardium and myocardium",
+            "C. Parietal and visceral layers of the serous pericardium",
+            "D. Endocardium and myocardium",
+            "E. Fibrous pericardium and parietal pleura",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The pericardial cavity is the thin space between the parietal layer (lining the inner surface of the fibrous pericardium) and the visceral layer (covering the outside of the heart) of the serous pericardium. This space contains serous fluid that reduces friction."
+        },
+        {
+          "q": "Which layer of the heart wall is the thickest and is composed of cardiac muscle tissue?",
+          "opts": [
+            "A. Epicardium",
+            "B. Endocardium",
+            "C. Pericardium",
+            "D. Myocardium",
+            "E. Fibrous pericardium",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The myocardium is the middle and thickest layer of the heart wall, composed of cardiac muscle tissue. The epicardium is the outer layer; the endocardium is the inner layer lining the chambers."
+        },
+        {
+          "q": "The endocardium is continuous with which structure in blood vessels?",
+          "opts": [
+            "A. Tunica media",
+            "B. Tunica adventitia",
+            "C. Endothelium",
+            "D. Pericardium",
+            "E. Smooth muscle",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The endocardium is the innermost layer of the heart, composed of simple squamous epithelium. It covers the valves and is continuous with the endothelium that lines the interior of blood vessels."
+        },
+        {
+          "q": "Approximately what proportion of the heart lies to the left of the midline?",
+          "opts": [
+            "A. 1/4",
+            "B. 1/3",
+            "C. 1/2",
+            "D. 2/3",
+            "E. 3/4",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "Approximately 2/3 of the heart lies to the left of the midline, with 1/3 to the right. It sits in the mediastinum between the lungs, posterior to the sternum and superior to the diaphragm."
+        },
+        {
+          "q": "The right ventricle pumps blood into which vessel?",
+          "opts": [
+            "A. Aorta",
+            "B. Superior vena cava",
+            "C. Pulmonary trunk",
+            "D. Coronary sinus",
+            "E. Inferior vena cava",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The right ventricle pumps deoxygenated blood into the pulmonary trunk, which bifurcates into the left and right pulmonary arteries leading to the lungs for gas exchange. The aorta receives blood from the left ventricle."
+        },
+        {
+          "q": "After gas exchange in the pulmonary capillaries, oxygenated blood returns to the heart via which vessels?",
+          "opts": [
+            "A. Pulmonary arteries",
+            "B. Superior and inferior vena cava",
+            "C. Coronary veins",
+            "D. Pulmonary veins",
+            "E. Bronchial arteries",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "Oxygenated blood returns from the lungs to the left atrium via the pulmonary veins (four in total). The pulmonary arteries carry deoxygenated blood to the lungs. The vena cavae return systemic deoxygenated blood to the right atrium."
+        },
+        {
+          "q": "The fossa ovalis is found in which part of the heart?",
+          "opts": [
+            "A. Interventricular septum",
+            "B. Right ventricle",
+            "C. Interatrial septum",
+            "D. Left atrium",
+            "E. Atrioventricular septum",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The fossa ovalis is an oval-shaped depression in the interatrial septum. It is the remnant of the foramen ovale, an opening in the fetal heart that allowed blood to bypass the pulmonary circuit. It closes after birth when the septum primum acts as a valve."
+        },
+        {
+          "q": "Why is the interventricular septum thicker than the interatrial septum?",
+          "opts": [
+            "A. It contains more adipose tissue",
+            "B. The ventricles generate greater pressure during contraction than the atria",
+            "C. It must support the weight of both atria",
+            "D. It is composed of fibrous rather than muscular tissue",
+            "E. It contains the His-Purkinje conduction system",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The interventricular septum is thicker because ventricles generate significantly more pressure during contraction than atria, requiring stronger walls. It is a physical extension of the myocardium lined with endocardium."
+        },
+        {
+          "q": "Which of the following structures drains the heart's myocardium and empties into the right atrium?",
+          "opts": [
+            "A. Superior vena cava",
+            "B. Inferior vena cava",
+            "C. Coronary sinus",
+            "D. Great cardiac vein",
+            "E. Pulmonary trunk",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The coronary sinus is a thin-walled vessel on the posterior surface of the heart that drains most of the coronary veins (great, middle, small, and posterior cardiac veins) and empties into the right atrium. The vena cavae drain systemic circulation."
+        },
+        {
+          "q": "The right atrium receives blood from which three sources?",
+          "opts": [
+            "A. Pulmonary veins, aorta, and coronary sinus",
+            "B. Superior vena cava, inferior vena cava, and coronary sinus",
+            "C. Pulmonary arteries, coronary veins, and superior vena cava",
+            "D. Inferior vena cava, pulmonary trunk, and coronary sinus",
+            "E. Superior vena cava, pulmonary veins, and inferior vena cava",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The right atrium receives deoxygenated blood from three sources: the superior vena cava (from superior to the diaphragm), the inferior vena cava (inferior to the diaphragm), and the coronary sinus (draining the myocardium itself)."
+        },
+        {
+          "q": "Pectinate muscles are found in which cardiac chambers?",
+          "opts": [
+            "A. Both ventricles",
+            "B. Left atrium and left ventricle",
+            "C. Right atrium and right auricle, and the left auricle",
+            "D. All four chambers equally",
+            "E. Right ventricle only",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Pectinate muscles are prominent muscle ridges found in the right atrium, the right auricle, and the left auricle. The left atrium itself does not have pectinate muscles (except in its auricle), giving it a mostly smooth interior."
+        },
+        {
+          "q": "The chordae tendineae connect the AV valve leaflets to which structure?",
+          "opts": [
+            "A. Trabeculae carneae",
+            "B. Papillary muscles",
+            "C. Moderator band",
+            "D. Fibrous cardiac skeleton",
+            "E. Interventricular septum",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The chordae tendineae ('heart strings') are strong connective tissue cords composed of ~80% collagen and 20% elastin that connect the AV valve flaps (leaflets) to the papillary muscles. This arrangement prevents valve prolapse during ventricular contraction."
+        },
+        {
+          "q": "What is the primary function of the papillary muscles contracting during ventricular systole?",
+          "opts": [
+            "A. To open the semilunar valves",
+            "B. To increase ventricular volume",
+            "C. To prevent backflow through the AV valves by tensioning the chordae tendineae",
+            "D. To conduct electrical impulses to the Purkinje fibres",
+            "E. To eject blood into the pulmonary trunk",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "During ventricular contraction, the papillary muscles contract simultaneously with the ventricular walls. This puts tension on the chordae tendineae, preventing the AV valve leaflets from prolapsing (inverting) back into the atria, thus preventing regurgitation."
+        },
+        {
+          "q": "The moderator band in the right ventricle serves which function?",
+          "opts": [
+            "A. Prevents overfilling of the right ventricle",
+            "B. Reinforces the ventricular wall and carries part of the cardiac conduction system",
+            "C. Connects the tricuspid valve to the aortic valve",
+            "D. Separates the right ventricle from the left ventricle",
+            "E. Drains venous blood from the right ventricle",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The moderator band is a band of cardiac muscle covered by endocardium that crosses the interior of the right ventricle from the interventricular septum to the anterior papillary muscle. It reinforces the ventricular walls and carries part of the cardiac conduction system."
+        },
+        {
+          "q": "How many cusps does the mitral (bicuspid) valve have?",
+          "opts": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4",
+            "E. 5",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The mitral (bicuspid) valve has 2 cusps, distinguishing it from the tricuspid valve on the right side which has 3 leaflets. Both have chordae tendineae and papillary muscles. The mitral valve sits between the left atrium and left ventricle."
+        },
+        {
+          "q": "Which valves lack papillary muscles and chordae tendineae?",
+          "opts": [
+            "A. Tricuspid and mitral valves",
+            "B. Mitral and aortic valves",
+            "C. Pulmonary and aortic semilunar valves",
+            "D. Tricuspid and pulmonary valves",
+            "E. All four cardiac valves have papillary muscles",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The semilunar valves (pulmonary and aortic) do not have papillary muscles or chordae tendineae. They rely on the pressure of blood filling their cusps to close. The AV valves (tricuspid and mitral) require chordae tendineae and papillary muscles to prevent prolapse."
+        },
+        {
+          "q": "The aortic semilunar valve closes when which pressure relationship occurs?",
+          "opts": [
+            "A. Left ventricular pressure exceeds aortic pressure",
+            "B. Aortic pressure exceeds left ventricular pressure at the end of systole",
+            "C. Right ventricular pressure falls below pulmonary pressure",
+            "D. Atrial pressure exceeds ventricular pressure",
+            "E. Ventricular pressure equals zero",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The aortic valve closes when aortic pressure exceeds left ventricular pressure at the end of systole. Blood attempts to flow back toward the ventricle, filling the valve cusps and closing them, producing the S2 ('dupp') heart sound."
+        },
+        {
+          "q": "Coronary arteries arise from which part of the aorta?",
+          "opts": [
+            "A. The aortic arch",
+            "B. The descending thoracic aorta",
+            "C. Just superior to the aortic semilunar valve (the aortic sinuses)",
+            "D. The abdominal aorta",
+            "E. The ascending aorta at the level of T4",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The two coronary arteries arise from the beginning of the aorta, specifically from dilations called the aortic sinuses located just superior to the aortic semilunar valve. There are three aortic sinuses; the right posterior sinus gives rise to no vessel."
+        },
+        {
+          "q": "The left anterior descending (LAD) artery follows which sulcus?",
+          "opts": [
+            "A. Coronary sulcus",
+            "B. Posterior interventricular sulcus",
+            "C. Anterior interventricular sulcus",
+            "D. Atrioventricular sulcus",
+            "E. Oblique sinus",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The LAD (also called the anterior interventricular artery) follows the anterior interventricular sulcus around the pulmonary trunk. It supplies the anterior interventricular septum and gives rise to branches that form anastomoses with the posterior interventricular artery."
+        },
+        {
+          "q": "Which coronary vessel supplies the right atrium, portions of both ventricles, and the cardiac conduction system?",
+          "opts": [
+            "A. Left coronary artery",
+            "B. Circumflex artery",
+            "C. Anterior interventricular artery",
+            "D. Right coronary artery",
+            "E. Great cardiac vein",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The right coronary artery proceeds along the coronary sulcus and supplies the right atrium, portions of both ventricles, and the heart's conduction system (including the SA and AV nodes in most individuals)."
+        },
+        {
+          "q": "The anterior cardiac veins are unique among cardiac veins because they:",
+          "opts": [
+            "A. Drain into the coronary sinus like all other cardiac veins",
+            "B. Drain directly into the right atrium, bypassing the coronary sinus",
+            "C. Drain into the left atrium",
+            "D. Run parallel to the circumflex artery",
+            "E. Drain exclusively into the great cardiac vein",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The anterior cardiac veins are unique in that they drain the anterior surface of the right ventricle and empty directly into the right atrium, bypassing the coronary sinus. All other major cardiac veins (great, middle, small, posterior) drain into the coronary sinus first."
+        },
+        {
+          "q": "The SA node is located at which anatomical junction?",
+          "opts": [
+            "A. Junction of the inferior vena cava and right atrium",
+            "B. Junction of the superior vena cava and right atrium",
+            "C. Between the right and left atria",
+            "D. At the base of the interventricular septum",
+            "E. Within the AV node",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The sinoatrial (SA) node is located at the junction of the superior vena cava and the right atrium. It is the primary pacemaker of the heart and initiates the electrical impulse that spreads across both atria."
+        },
+        {
+          "q": "What is the primary role of the AV node in cardiac conduction?",
+          "opts": [
+            "A. To initiate the cardiac impulse",
+            "B. To rapidly distribute the impulse to the ventricular myocardium",
+            "C. To delay impulse transmission to allow atrial contraction and ventricular filling",
+            "D. To repolarize the atria",
+            "E. To prevent impulses travelling from ventricles to atria only",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The AV node deliberately delays impulse transmission (contributing 0.09s of the total 0.16s AV delay). This ensures the atria have time to contract and fill the ventricles before ventricular contraction begins, optimising cardiac output."
+        },
+        {
+          "q": "The total AV delay from SA node to ventricular activation is approximately:",
+          "opts": [
+            "A. 0.03 seconds",
+            "B. 0.09 seconds",
+            "C. 0.16 seconds",
+            "D. 0.4 seconds",
+            "E. 1.0 seconds",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The total AV delay is 0.16 seconds, composed of: SA node to AV node (0.03s), AV node slow conduction (0.09s), and AV bundle/Bundle of His (0.04s). This ensures atrial contraction precedes ventricular contraction."
+        },
+        {
+          "q": "Which component of the conducting system rapidly distributes the impulse throughout the ventricular myocardium?",
+          "opts": [
+            "A. SA node",
+            "B. AV node",
+            "C. Bundle of His",
+            "D. Purkinje fibre network",
+            "E. Internodal pathways",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "The Purkinje fibre network rapidly distributes the impulse throughout the ventricular myocardium, ensuring coordinated ventricular contraction. The Bundle of His penetrates the membranous septum; the bundle branches split it left and right before the Purkinje fibres."
+        },
+        {
+          "q": "The intrinsic firing rate of the SA node without autonomic modulation is approximately:",
+          "opts": [
+            "A. 40–60 bpm",
+            "B. 60–80 bpm",
+            "C. 100–110 bpm",
+            "D. 120–140 bpm",
+            "E. 15–40 bpm",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The intrinsic firing rate of the SA node is 100–110 bpm. In practice, constant vagal (parasympathetic) suppression reduces this to approximately 70 bpm at rest. If the SA node fails, the AV node takes over at 40–60 bpm."
+        },
+        {
+          "q": "What are 'funny channels' (If channels) in pacemaker cells?",
+          "opts": [
+            "A. Ligand-gated channels that open in response to acetylcholine",
+            "B. Hyperpolarization-activated channels that slowly allow Na+/K+ influx, gradually depolarizing the cell",
+            "C. Voltage-gated K+ channels responsible for repolarization",
+            "D. L-type Ca2+ channels that drive the action potential upstroke",
+            "E. Gap junctions between adjacent pacemaker cells",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Funny channels (If) are hyperpolarization-activated, voltage-gated channels that open when the membrane becomes more negative. They slowly leak Na+ (and some K+) inward, gradually depolarizing the membrane toward the threshold of -40mV. Ca2+ channels then drive the upstroke."
+        },
+        {
+          "q": "At what membrane potential does the SA node action potential upstroke begin?",
+          "opts": [
+            "A. -90 mV",
+            "B. -70 mV",
+            "C. -60 mV (RMP) rising to -40 mV threshold",
+            "D. 0 mV",
+            "E. +30 mV",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The SA node resting membrane potential (RMP) is approximately -60mV. The funny channels gradually depolarize the cell until the threshold of -40mV is reached, at which point L-type Ca2+ channels open and drive the upstroke of the action potential."
+        },
+        {
+          "q": "Cardiac muscle cells are electrically coupled by which structures that allow direct ion flow between cells?",
+          "opts": [
+            "A. T-tubules",
+            "B. Desmosomes",
+            "C. Gap junctions within intercalated discs",
+            "D. Sarcoplasmic reticulum",
+            "E. Tight junctions",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Gap junctions within intercalated discs act as low-resistance electrical bridges, allowing action potentials to propagate directly between cardiac muscle cells without a synapse. This makes cardiac muscle function as a syncytium, ensuring coordinated contraction."
+        },
+        {
+          "q": "What is the role of T-tubules in cardiac muscle cells?",
+          "opts": [
+            "A. To store Ca2+ between contractions",
+            "B. To resist mechanical pulling forces during contraction",
+            "C. To ensure action potentials reach central myofibrils and couple electrical signals to Ca2+ release",
+            "D. To remove Ca2+ from the cytosol after contraction",
+            "E. To allow ion flow between adjacent cells",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "T-tubules are deep membrane invaginations that ensure action potentials reach the central myofibrils. They couple electrical signals to Ca2+ release from the sarcoplasmic reticulum (SR) and are more prominent in cardiac muscle than in skeletal muscle."
+        },
+        {
+          "q": "In excitation-contraction coupling in cardiac muscle, what triggers Ca2+-induced Ca2+ release (CICR)?",
+          "opts": [
+            "A. K+ influx through funny channels",
+            "B. A small Ca2+ influx via L-type channels in the T-tubule membrane",
+            "C. Na+ influx through fast channels",
+            "D. Acetylcholine binding to muscarinic receptors",
+            "E. ATP hydrolysis by SERCA",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "A small Ca2+ influx through L-type (voltage-gated) Ca2+ channels in the T-tubule membrane triggers a much larger Ca2+ release from the sarcoplasmic reticulum — this is CICR. The SR provides approximately 70% of the activation Ca2+, while the ECF provides ~30%."
+        },
+        {
+          "q": "Which of the following is NOT a mechanism for removing Ca2+ from the cytosol during cardiac muscle relaxation?",
+          "opts": [
+            "A. SERCA (Ca2+-ATPase) pumping Ca2+ back into the SR",
+            "B. Na+/Ca2+ exchanger (NCX) removing Ca2+ across the sarcolemma",
+            "C. Closure of L-type Ca2+ channels at the end of the plateau phase",
+            "D. Ryanodine receptor opening on the SR",
+            "E. Reduction of cytosolic Ca2+ below troponin C binding threshold",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "Ryanodine receptors open during CICR to release Ca2+ from the SR — this is a contraction mechanism, not relaxation. Relaxation requires: L-type channel closure, SERCA pumping Ca2+ back into SR, and the NCX (3 Na+ in, 1 Ca2+ out) removing Ca2+ to the ECF."
+        },
+        {
+          "q": "The Na+/Ca2+ exchanger (NCX) is described as 'electrogenic' because:",
+          "opts": [
+            "A. It uses ATP directly",
+            "B. It exchanges equal numbers of Na+ and Ca2+ ions",
+            "C. It exchanges 3 Na+ in for 1 Ca2+ out, generating a net electric potential",
+            "D. It only operates during depolarization",
+            "E. It generates ATP as a by-product",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The NCX is electrogenic because it exchanges 3 Na+ ions inward for 1 Ca2+ outward. This unequal charge exchange generates a net inward positive current, contributing to the membrane potential. It is a secondary active transporter driven by the Na+ gradient."
+        },
+        {
+          "q": "Atrial fibrillation (AF) is caused by the loss of which structure's function?",
+          "opts": [
+            "A. AV node",
+            "B. Purkinje fibres",
+            "C. SA node (SAN)",
+            "D. Bundle of His",
+            "E. Left bundle branch",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Loss of SA node function results in atrial fibrillation, where atrial contraction becomes disorganised. Without coordinated atrial contraction, the 'atrial kick' (15–25% of ventricular filling) is lost, reducing cardiac efficiency. 80% of adults with AF are over 65."
+        },
+        {
+          "q": "In the cardiac pacemaker hierarchy, if the SA node fails and the AV node becomes the pacemaker, what is the expected heart rate?",
+          "opts": [
+            "A. 100–110 bpm",
+            "B. 70–80 bpm",
+            "C. 40–60 bpm",
+            "D. 15–40 bpm",
+            "E. 120 bpm",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The AV node is the secondary pacemaker with an intrinsic rate of 40–60 bpm. The Purkinje fibres are the tertiary pacemaker at 15–40 bpm, firing only in complete AV block to prevent cardiac arrest. The SA node's faster rate normally suppresses lower pacemakers."
+        },
+        {
+          "q": "On an ECG, the P wave represents:",
+          "opts": [
+            "A. Ventricular depolarization",
+            "B. Atrial depolarization",
+            "C. The delay at the AV node",
+            "D. Ventricular repolarization",
+            "E. Atrial repolarization",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The P wave represents atrial depolarization, which initiates atrial contraction. The PR segment represents the delay at the AV node. The QRS complex represents ventricular depolarization. The T wave represents ventricular repolarization. Atrial repolarization is hidden within the QRS."
+        },
+        {
+          "q": "The QRS complex on an ECG represents which electrical event?",
+          "opts": [
+            "A. Atrial depolarization",
+            "B. AV node delay",
+            "C. Ventricular depolarization",
+            "D. Ventricular repolarization",
+            "E. Atrial repolarization",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The QRS complex represents ventricular depolarization, triggering ventricular contraction. Atrial repolarization also occurs during this time but is obscured by the much larger QRS complex. The T wave represents ventricular repolarization."
+        },
+        {
+          "q": "Which ECG lead is best for showing upright P waves and is commonly used to assess cardiac rhythm?",
+          "opts": [
+            "A. Lead I",
+            "B. Lead II",
+            "C. Lead III",
+            "D. aVR",
+            "E. V1",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Lead II best shows upright P waves because its positive electrode (left leg) is oriented toward the normal direction of atrial depolarization. It looks at the inferior wall of the heart and is widely used as the standard rhythm assessment lead."
+        },
+        {
+          "q": "The augmented lead aVF has its positive electrode at the left leg and primarily views which wall of the heart?",
+          "opts": [
+            "A. Lateral wall",
+            "B. Anterior wall",
+            "C. Posterior wall",
+            "D. Inferior wall",
+            "E. Septal wall",
+            "F. Option F"
+          ],
+          "ans": "D",
+          "exp": "aVF has its positive electrode at the left leg and looks at the heart from an inferior perspective, viewing the inferior wall. It is useful for detecting inferior wall abnormalities such as inferior MI. Its reference is the mathematical average of the right arm (RA) and left arm (LA)."
+        },
+        {
+          "q": "When calculating the QRS axis, if Lead I is positive and aVF is negative, the axis is:",
+          "opts": [
+            "A. Normal (0 to +90°)",
+            "B. Right axis deviation",
+            "C. Left axis deviation",
+            "D. Extreme axis deviation",
+            "E. Indeterminate",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "If Lead I is positive and aVF is negative, the QRS axis lies in the left quadrant (-30 to -90°), indicating left axis deviation (LAD). Causes include left-sided conduction delay and inferior MI. Both positive = normal; both negative = extreme deviation."
+        },
+        {
+          "q": "Right axis deviation on ECG (+90° to +180°) is commonly associated with which condition?",
+          "opts": [
+            "A. Left bundle branch block",
+            "B. Inferior myocardial infarction",
+            "C. Right heart strain or hypertrophy",
+            "D. Left ventricular hypertrophy",
+            "E. Atrial fibrillation",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Right axis deviation (+90 to +180°) is commonly caused by right heart strain or hypertrophy, which shifts the dominant electrical force to the right. Left axis deviation is associated with left-sided conduction delay or infarction."
+        },
+        {
+          "q": "The chest leads (V1–V6) on an ECG provide which view of the heart?",
+          "opts": [
+            "A. Frontal plane view",
+            "B. Transverse (horizontal) plane view",
+            "C. Sagittal plane view",
+            "D. Coronal plane view only",
+            "E. An inferior view",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The chest (precordial) leads V1–V6 look at a transverse view of the heart and are particularly useful for localising myocardial infarction by identifying ST-segment changes in specific territories."
+        },
+        {
+          "q": "A 62-year-old man presents with central crushing chest pain radiating to his left arm, worse on exertion. What is the most likely underlying mechanism?",
+          "opts": [
+            "A. Pericarditis causing friction rub",
+            "B. Coronary artery narrowing due to atherosclerosis causing a mismatch between myocardial oxygen supply and demand",
+            "C. Left ventricular hypertrophy reducing cardiac output",
+            "D. Pulmonary embolism obstructing the pulmonary circulation",
+            "E. Aortic dissection separating the aortic wall layers",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "This presentation describes ischaemic chest pain (angina). Atherosclerosis narrows the coronary arteries, reducing blood supply. During increased demand (exertion), there is a mismatch between oxygen supply and demand, causing the characteristic squeezing, heaviness, or tightness."
+        },
+        {
+          "q": "Orthopnoea is best defined as:",
+          "opts": [
+            "A. Breathlessness that wakes a patient from sleep",
+            "B. Breathlessness triggered only by exercise",
+            "C. Breathlessness that develops when a patient is supine, relieved by sitting up",
+            "D. Breathlessness due to pulmonary embolism",
+            "E. Breathlessness associated with right-sided heart failure only",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Orthopnoea is breathlessness that develops when the patient lies flat (supine). When lying down, interstitial oedema redistributes to lung bases and venous return from the lower limbs increases, exacerbating demands on a failing left ventricle."
+        },
+        {
+          "q": "Paroxysmal nocturnal dyspnoea (PND) is most characteristically due to:",
+          "opts": [
+            "A. Right ventricular dysfunction",
+            "B. Left ventricular (LV) dysfunction causing episodes of breathlessness that wake the patient from sleep",
+            "C. Obstructive sleep apnoea",
+            "D. Pericardial effusion",
+            "E. Anxiety-related hyperventilation",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "PND occurs in left ventricular dysfunction. When the patient lies flat during sleep, fluid redistribution increases pulmonary venous pressure enough to cause breathlessness that wakes the patient. It is distinct from orthopnoea in that it occurs after the patient has been asleep."
+        },
+        {
+          "q": "Ankle oedema in heart failure is most commonly associated with which type of failure?",
+          "opts": [
+            "A. Left-sided heart failure",
+            "B. Congestive or right-sided heart failure",
+            "C. High-output heart failure",
+            "D. Diastolic dysfunction only",
+            "E. Systolic dysfunction of the left ventricle",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Peripheral oedema (ankle oedema) is a sign of fluid overload and is associated with congestive or right-sided heart failure. Elevated right heart pressures cause systemic venous congestion, resulting in fluid accumulation in dependent areas."
+        },
+        {
+          "q": "Intermediate claudication is caused by:",
+          "opts": [
+            "A. Coronary artery disease causing calf pain at rest",
+            "B. Atherosclerosis in peripheral arteries supplying the legs, causing a mismatch of oxygen supply and demand on exertion",
+            "C. Deep vein thrombosis causing leg pain",
+            "D. Venous insufficiency causing bilateral leg oedema",
+            "E. Peripheral neuropathy causing bilateral calf cramping",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Intermittent claudication is a cramping pain in the calf, thigh, or buttock on exertion, caused by atherosclerosis narrowing the peripheral arteries supplying the legs. The resulting mismatch between muscle oxygen supply and demand during exercise produces the characteristic symptoms."
+        },
+        {
+          "q": "During the phase of isovolumetric contraction in the cardiac cycle:",
+          "opts": [
+            "A. The aortic valve is open and blood is being ejected",
+            "B. All valves are closed, ventricular pressure is rising, and volume is constant",
+            "C. The mitral valve is open and blood is flowing from the left atrium",
+            "D. The ventricle is relaxing after ejection",
+            "E. The pulmonary valve opens and blood enters the lungs",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Isovolumetric contraction follows mitral valve closure (end diastole). All valves are closed, so ventricular volume remains constant while pressure rises rapidly. This phase ends when ventricular pressure exceeds aortic pressure, causing the aortic valve to open."
+        },
+        {
+          "q": "The 'atrial kick' contributes what percentage of ventricular filling?",
+          "opts": [
+            "A. 5–10%",
+            "B. 15–25%",
+            "C. 30–40%",
+            "D. 50–60%",
+            "E. 70–80%",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The atrial kick (active atrial contraction at the end of diastole) contributes approximately 15–25% of total ventricular filling. Most ventricular filling (75–85%) occurs passively. Loss of this kick in AF significantly reduces cardiac efficiency, especially in diseased hearts."
+        },
+        {
+          "q": "The dicrotic notch on an aortic pressure waveform represents:",
+          "opts": [
+            "A. Opening of the aortic valve",
+            "B. Peak ventricular ejection pressure",
+            "C. A brief backward flow of blood toward the aortic valve at closure, causing a transient pressure drop followed by elastic recoil",
+            "D. Closure of the mitral valve",
+            "E. The end of isovolumetric relaxation",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The dicrotic notch is caused by a tiny backward flow of blood toward the aortic valve as the ventricle relaxes. This closes the aortic valve and causes a brief drop in aortic pressure, followed by a rebound rise as elastic recoil of the aorta continues diastolic runoff."
+        },
+        {
+          "q": "The end-systolic pressure-volume relationship (ESPVR) slope reflects which cardiac property?",
+          "opts": [
+            "A. Ventricular compliance during filling",
+            "B. Myocardial contractility (how strongly the ventricle contracts)",
+            "C. Preload at end diastole",
+            "D. Afterload from peripheral resistance",
+            "E. Stroke volume per beat",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The ESPVR slope is a load-independent measure of myocardial contractility — the steeper the slope, the stronger the ventricle contracts. The End-Diastolic Pressure-Volume Relationship (EDPVR) curve describes ventricular stiffness (compliance) during filling."
+        },
+        {
+          "q": "During isovolumetric relaxation:",
+          "opts": [
+            "A. The aortic valve is open and blood continues to flow into the aorta",
+            "B. The mitral valve opens immediately",
+            "C. All valves are closed and ventricular pressure falls rapidly after aortic valve closure",
+            "D. Atrial contraction provides additional ventricular filling",
+            "E. Ventricular volume increases as filling begins",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Isovolumetric relaxation begins with aortic valve closure (end systole). All valves remain closed, so ventricular volume is constant. Ventricular pressure falls rapidly until it drops below left atrial pressure, at which point the mitral valve opens and rapid filling begins."
+        },
+        {
+          "q": "The S1 heart sound ('lubb') is produced by:",
+          "opts": [
+            "A. Opening of the aortic and pulmonary valves",
+            "B. Closure of the AV valves (tricuspid and mitral) at the start of systole",
+            "C. Closure of the semilunar valves at the end of systole",
+            "D. Turbulent flow through stenosed coronary arteries",
+            "E. Opening of the mitral valve at the start of diastole",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "S1 ('lubb') is produced by the closure of the AV valves (tricuspid and mitral) at the beginning of systole. S2 ('dupp') is produced by the closure of the semilunar valves (aortic and pulmonary) at the end of systole."
+        },
+        {
+          "q": "A patient with mitral stenosis would be expected to produce which auscultatory finding?",
+          "opts": [
+            "A. A soft S2",
+            "B. A systolic murmur due to AV valve incompetence",
+            "C. A diastolic whistle murmur across the stenosed mitral valve",
+            "D. An absent S1",
+            "E. A pericardial friction rub",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Stenosis of the mitral valve causes a murmur (typically a whistle murmur) as blood is forced through the narrowed valve during diastole. Incompetence of AV valves causes a gurgle murmur. Semilunar valve stenosis also produces whistle murmurs (systolic)."
+        },
+        {
+          "q": "A 45-year-old woman with iron deficiency anaemia presents with palpitations. Which mechanism best explains this?",
+          "opts": [
+            "A. Excess potassium causing arrhythmias",
+            "B. Reduced haemoglobin causes oxygen deficiency, triggering compensatory tachycardia and heightened sympathetic activity",
+            "C. Anaemia directly damages the SA node",
+            "D. Low haemoglobin increases preload causing ventricular hypertrophy",
+            "E. Iron deficiency causes AV block",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Iron deficiency reduces haemoglobin, decreasing the blood's oxygen-carrying capacity. The body compensates by increasing heart rate (tachycardia) via heightened sympathetic activity. This increased cardiac activity is perceived as palpitations."
+        },
+        {
+          "q": "Syncope from severe aortic stenosis is best explained by:",
+          "opts": [
+            "A. Increased venous return overwhelming the right heart",
+            "B. A drop in cardiac output below the threshold needed to maintain brain perfusion",
+            "C. Excessive vagal tone slowing the heart too much",
+            "D. Pulmonary oedema impairing oxygenation",
+            "E. Rapid AF causing haemorrhagic stroke",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Aortic stenosis obstructs left ventricular outflow, limiting cardiac output. During exertion (when demand rises), the fixed obstruction prevents adequate output increase, causing a sudden drop in blood pressure below the threshold for cerebral perfusion, resulting in syncope."
+        },
+        {
+          "q": "The circumflex artery originates from which vessel and follows which groove?",
+          "opts": [
+            "A. Right coronary artery; posterior interventricular sulcus",
+            "B. Left coronary artery; coronary sulcus to the left",
+            "C. Aortic arch; anterior interventricular sulcus",
+            "D. Pulmonary trunk; atrioventricular sulcus",
+            "E. Left coronary artery; posterior interventricular sulcus",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The circumflex artery arises from the left coronary artery and follows the coronary sulcus to the left, eventually fusing with small branches of the right coronary artery. It supplies the left atrium and lateral/posterior left ventricle."
+        },
+        {
+          "q": "Which statement about the left ventricle compared to the right ventricle is correct?",
+          "opts": [
+            "A. The left ventricle has a moderator band; the right does not",
+            "B. The left ventricle is thinner-walled to allow greater compliance",
+            "C. The left ventricle is thicker-walled to overcome greater resistance in the systemic circuit",
+            "D. Both ventricles have equal wall thickness",
+            "E. The right ventricle contains the mitral valve",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The left ventricle has a thicker muscular wall than the right because it must generate sufficient pressure to overcome the high resistance of the long systemic circuit (versus the low resistance pulmonary circuit for the right ventricle). The right ventricle has the moderator band; the left does not."
+        },
+        {
+          "q": "The great cardiac vein parallels which coronary artery?",
+          "opts": [
+            "A. Right coronary artery",
+            "B. Posterior interventricular artery",
+            "C. Anterior interventricular (LAD) artery",
+            "D. Circumflex artery",
+            "E. Marginal artery",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The great cardiac vein is first seen on the heart surface following the anterior interventricular sulcus, paralleling the LAD (anterior interventricular artery). It then flows along the coronary sulcus into the coronary sinus on the posterior surface."
+        },
+        {
+          "q": "Which serous membrane directly covers the outer surface of the heart and forms part of the heart wall?",
+          "opts": [
+            "A. Parietal pericardium",
+            "B. Fibrous pericardium",
+            "C. Visceral pericardium (epicardium)",
+            "D. Parietal pleura",
+            "E. Visceral pleura",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The visceral pericardium, also called the epicardium, is fused directly to the outer surface of the heart and forms the outermost layer of the heart wall. The parietal pericardium lines the inner surface of the fibrous pericardium; together they form the serous pericardium."
+        },
+        {
+          "q": "A medical student notes a patient's ECG shows Lead I is negative and aVF is positive. What does this indicate?",
+          "opts": [
+            "A. Normal QRS axis",
+            "B. Left axis deviation",
+            "C. Right axis deviation",
+            "D. Extreme axis deviation",
+            "E. Ventricular tachycardia",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "When Lead I is negative and aVF is positive, the QRS axis falls in the right quadrant (+90 to +180°), indicating right axis deviation (RAD). Common causes include right heart strain and hypertrophy. Both negative would indicate extreme deviation."
+        },
+        {
+          "q": "The foramen ovale in the fetal heart allows blood to:",
+          "opts": [
+            "A. Bypass the coronary circulation",
+            "B. Flow from the right ventricle directly to the aorta",
+            "C. Pass directly from the right atrium to the left atrium, bypassing the pulmonary circuit",
+            "D. Flow from the left atrium to the right ventricle",
+            "E. Bypass the AV node for faster conduction",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The foramen ovale in the fetal heart allows blood to pass directly from the right atrium to the left atrium, bypassing the non-functional pulmonary circuit in utero. After birth, the septum primum closes the foramen ovale, leaving the fossa ovalis as a remnant."
+        },
+        {
+          "q": "The 'cardiac skeleton' consists of dense connective tissue rings around which structures?",
+          "opts": [
+            "A. Coronary artery ostia",
+            "B. The four valve openings (mitral, tricuspid, aortic, pulmonary)",
+            "C. The vena cava orifices",
+            "D. The pulmonary veins",
+            "E. The SA and AV nodes",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The cardiac skeleton consists of four fibrous rings of dense connective tissue surrounding the four valve openings. It provides structural support, maintains valve geometry, and forms an important electrical boundary — it electrically isolates the atria from the ventricles so conduction must pass only through the AV node."
+        },
+        {
+          "q": "When is the AV (mitral) valve open?",
+          "opts": [
+            "A. When ventricular pressure exceeds atrial pressure (systole)",
+            "B. When ventricular pressure is less than atrial pressure (diastole — passive filling)",
+            "C. Only during isovolumetric contraction",
+            "D. Only when the atria contract",
+            "E. When semilunar valves are also open",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The AV valves (including the mitral) open when ventricular pressure falls below atrial pressure during diastole, allowing passive ventricular filling. They close at the onset of systole when ventricular pressure rises to exceed atrial pressure, producing the S1 sound."
+        },
+        {
+          "q": "Which of the following is a clinical vignette — A 70-year-old man presents with breathlessness worse when lying flat, bilateral ankle oedema, and reduced exercise tolerance. His BNP is elevated. Which diagnosis fits best?",
+          "opts": [
+            "A. Pulmonary embolism",
+            "B. Pneumonia with right-sided consolidation",
+            "C. Congestive cardiac failure",
+            "D. Aortic stenosis without heart failure",
+            "E. Atrial fibrillation without structural disease",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "This presentation — orthopnoea, peripheral oedema, and reduced exercise tolerance with elevated BNP — is classic congestive cardiac failure (CCF). BNP is released by ventricular myocytes under stretch/pressure and is a biomarker of heart failure."
+        },
+        {
+          "q": "A patient's ECG shows no discernible P waves with an irregularly irregular rhythm. The most likely diagnosis is:",
+          "opts": [
+            "A. First-degree AV block",
+            "B. Atrial fibrillation",
+            "C. Ventricular tachycardia",
+            "D. Sinus bradycardia",
+            "E. Complete heart block",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "Absent P waves with an irregularly irregular rhythm is the hallmark ECG finding in atrial fibrillation (AF). The SA node is not generating organised impulses; instead chaotic atrial activity is present. In complete heart block, P waves are present but dissociated from QRS complexes."
+        },
+        {
+          "q": "Trabeculae carneae are found lining the walls of which cardiac chambers?",
+          "opts": [
+            "A. Both atria",
+            "B. Left atrium only",
+            "C. Both ventricles",
+            "D. Right ventricle only",
+            "E. All four chambers",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Trabeculae carneae are irregular ridges of cardiac muscle covered by endocardium that line the walls of both ventricles. The atria have pectinate muscles instead. The left ventricle also has trabeculae carneae but lacks a moderator band."
+        },
+        {
+          "q": "The pulmonary circuit is best described as:",
+          "opts": [
+            "A. Transporting oxygenated blood from the left heart to the body",
+            "B. Draining the myocardium via coronary veins",
+            "C. Pumping deoxygenated blood from the right ventricle to the lungs and returning oxygenated blood to the left atrium",
+            "D. Supplying blood to the conducting system of the heart",
+            "E. Moving blood from the left ventricle through the aorta",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The pulmonary circuit transports deoxygenated blood from the right ventricle via the pulmonary trunk and arteries to the lungs, where gas exchange occurs. Oxygenated blood then returns via four pulmonary veins to the left atrium to enter the systemic circuit."
+        },
+        {
+          "q": "A 55-year-old woman has an echocardiogram showing a poorly contracting left ventricle. The ESPVR slope is flattened. This indicates:",
+          "opts": [
+            "A. Good myocardial contractility",
+            "B. Increased ventricular compliance",
+            "C. Reduced myocardial contractility",
+            "D. Increased afterload",
+            "E. Normal systolic function",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The ESPVR slope is a measure of myocardial contractility. A flattened (decreased) slope indicates reduced contractility — the ventricle cannot develop as much pressure for a given end-systolic volume. This is characteristic of systolic heart failure."
+        },
+        {
+          "q": "Which of the following represents the correct sequence of the cardiac conduction system?",
+          "opts": [
+            "A. AV node → SA node → Bundle of His → Purkinje fibres",
+            "B. SA node → AV node → Bundle of His → Bundle branches → Purkinje fibres",
+            "C. SA node → Bundle of His → AV node → Purkinje fibres",
+            "D. Purkinje fibres → Bundle branches → AV node → SA node",
+            "E. SA node → Purkinje fibres → AV node → Bundle of His",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The correct sequence is: SA node (initiates impulse) → atrial myocardium → AV node (delays) → Bundle of His (penetrates septum) → right and left bundle branches → Purkinje fibre network (rapid ventricular activation). This sequence ensures coordinated atrial then ventricular contraction."
+        },
+        {
+          "q": "Sympathetic stimulation of the SA node increases heart rate by which mechanism?",
+          "opts": [
+            "A. Increasing the threshold potential required for action potentials",
+            "B. Reducing the rate of funny channel (If) current, slowing depolarisation",
+            "C. Increasing the rate of funny current (If), accelerating prepotential depolarisation toward threshold",
+            "D. Blocking L-type Ca2+ channels during the upstroke",
+            "E. Hyperpolarizing the cell to -80mV",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "Sympathetic stimulation increases cAMP, which enhances the funny current (If) — the SA node cells depolarise more rapidly toward threshold. This shortens the cycle length and increases heart rate. Parasympathetic (vagal) stimulation has the opposite effect."
+        },
+        {
+          "q": "Which of the following best describes the role of the Bundle of His?",
+          "opts": [
+            "A. It initiates the cardiac impulse",
+            "B. It delays conduction between the atria and ventricles",
+            "C. It penetrates the membranous interventricular septum, connecting the AV node to the bundle branches",
+            "D. It distributes the impulse throughout the ventricular myocardium",
+            "E. It repolarizes the ventricles",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "The Bundle of His (AV bundle) penetrates the fibrous membranous septum after the AV node, forming the only electrical connection between the atria and ventricles (the cardiac skeleton electrically isolates them elsewhere). It then splits into the left and right bundle branches."
+        },
+        {
+          "q": "In a complete AV block, which structure acts as the tertiary pacemaker to prevent cardiac arrest?",
+          "opts": [
+            "A. SA node",
+            "B. AV node",
+            "C. Purkinje fibres",
+            "D. Atrial myocardium",
+            "E. Moderator band",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "In complete AV block (where no impulses pass from atria to ventricles), the Purkinje fibres act as the tertiary pacemaker at 15–40 bpm, generating a ventricular escape rhythm to prevent cardiac arrest. This is a slow, broad-complex rhythm."
+        },
+        {
+          "q": "A patient's ECG shows ST-segment changes in leads V3 and V4. These chest leads are best used for detecting abnormalities in which territory?",
+          "opts": [
+            "A. Inferior wall supplied by the right coronary artery",
+            "B. High lateral wall supplied by the circumflex artery",
+            "C. Anterior wall / septal territory supplied by the LAD",
+            "D. Posterior wall",
+            "E. Right ventricle",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "V3–V4 overlie the anterior and septal walls of the heart, primarily supplied by the left anterior descending (LAD) artery. ST changes in these leads suggest anterior/septal ischaemia or infarction. V1–V2 are septal; V5–V6 are lateral."
+        },
+        {
+          "q": "Phospholamban regulates SERCA activity. In heart failure, reduced SERCA activity would impair which process?",
+          "opts": [
+            "A. L-type Ca2+ channel opening",
+            "B. Ca2+-induced Ca2+ release from the SR",
+            "C. Pumping Ca2+ back into the SR during relaxation, impairing diastolic function",
+            "D. Na+/Ca2+ exchange across the sarcolemma",
+            "E. Action potential conduction through gap junctions",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "SERCA (SR Ca2+-ATPase) pumps Ca2+ back into the SR during relaxation. Reduced SERCA activity (as seen in heart failure) means Ca2+ is not efficiently sequestered, leading to elevated cytosolic Ca2+, impaired relaxation (diastolic dysfunction), and reduced SR Ca2+ available for the next contraction."
+        },
+        {
+          "q": "During the Wiggers diagram, the mitral valve closes at which point?",
+          "opts": [
+            "A. At the beginning of rapid ventricular filling",
+            "B. When atrial pressure falls below ventricular pressure at the start of isovolumetric contraction",
+            "C. When ventricular pressure exceeds aortic pressure",
+            "D. At the end of isovolumetric relaxation",
+            "E. During the dicrotic notch",
+            "F. Option F"
+          ],
+          "ans": "B",
+          "exp": "The mitral valve closes at the end of diastole (beginning of isovolumetric contraction) when rising ventricular pressure exceeds left atrial pressure, producing the S1 heart sound. It opens again at the end of isovolumetric relaxation when ventricular pressure drops below atrial pressure."
+        },
+        {
+          "q": "Which of the following aortic sinus gives rise to no coronary artery?",
+          "opts": [
+            "A. Left posterior aortic sinus",
+            "B. Anterior aortic sinus",
+            "C. Right posterior aortic sinus",
+            "D. Both posterior sinuses",
+            "E. All three sinuses give rise to coronary arteries",
+            "F. Option F"
+          ],
+          "ans": "C",
+          "exp": "There are three dilations (aortic sinuses) just superior to the aortic semilunar valve. The left posterior aortic sinus gives rise to the left coronary artery; the anterior sinus gives rise to the right coronary artery; the right posterior sinus gives rise to no vessel."
+        }
+      ]
     }
   ],
   "pathways": [
@@ -4551,6 +6670,178 @@
         "Fibrinolysis: Plasminogen → Plasmin (via tPA)",
         "Plasmin cuts fibrin threads → Fibrin degradation products removed in urine"
       ]
+    },
+    {
+      "id": "pathway_vasc001",
+      "name": "Cardiac Output",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the key steps and factors in determining cardiac output from cellular signalling to final output",
+      "steps": [
+        "Sympathetic stimulation releases norepinephrine onto SA node",
+        "NE binds beta-1 adrenergic receptors on SA node",
+        "Na+ and Ca2+ channels open, increasing depolarisation rate",
+        "Heart rate (HR) increases",
+        "Simultaneously, increased contractility increases ventricular force",
+        "End Diastolic Volume (EDV) measured at end of filling",
+        "End Systolic Volume (ESV) measured after ventricular ejection",
+        "Stroke Volume calculated: SV = EDV − ESV",
+        "Cardiac Output calculated: CO = HR × SV",
+        "CO compared to demand; cardiovascular centre adjusts autonomic tone"
+      ]
+    },
+    {
+      "id": "pathway_vasc002",
+      "name": "Baroreceptor Reflex",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the steps of the baroreceptor reflex in response to a sudden rise in blood pressure",
+      "steps": [
+        "Blood pressure rises (e.g. from increased cardiac output)",
+        "Increased stretch detected by baroreceptors in aortic sinus and carotid bodies",
+        "Baroreceptors increase firing rate",
+        "Signals travel via vagus and glossopharyngeal nerves to medulla oblongata",
+        "Cardioinhibitory centre activated; cardioaccelerator centre suppressed",
+        "Parasympathetic (vagal) output to SA node increases",
+        "Acetylcholine released at SA node; K+ channels open",
+        "Heart rate decreases",
+        "Stroke volume decreases",
+        "Blood pressure returns toward homeostatic level"
+      ]
+    },
+    {
+      "id": "pathway_vasc003",
+      "name": "Capillary Exchange",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the steps describing the Starling forces and fluid movement across a capillary from arterial to venous end",
+      "steps": [
+        "Blood enters capillary at arterial end with CHP ~35 mmHg",
+        "BCOP (~26 mmHg) opposes outward movement due to plasma proteins",
+        "Net filtration pressure = CHP − BCOP = +9 mmHg at arterial end",
+        "Fluid filters out of capillary into interstitial space (filtration)",
+        "Mid-capillary: CHP falls to ~25 mmHg, equals BCOP — no net movement",
+        "At venous end: CHP falls to ~18 mmHg, below BCOP of 25 mmHg",
+        "Net filtration pressure is negative (−7 mmHg) — reabsorption occurs",
+        "Fluid moves from interstitium back into capillary at venous end",
+        "Excess fluid not reabsorbed (~3 L/day) enters lymphatic capillaries",
+        "Lymph is returned to circulation via thoracic duct and subclavian vein"
+      ]
+    },
+    {
+      "id": "pathway_vasc004",
+      "name": "Blood Vessel Structure",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the layers of a blood vessel wall from innermost to outermost, including key sub-components",
+      "steps": [
+        "Lumen — hollow centre through which blood flows",
+        "Endothelium — simple squamous epithelium lining the tunica intima",
+        "Basement membrane (basal lamina) — binds endothelium to connective tissue",
+        "Areolar connective tissue and elastic fibres — outer tunica intima",
+        "Internal elastic membrane — boundary between tunica intima and tunica media (large arteries only)",
+        "Tunica media — smooth muscle and elastic fibres in circular sheets",
+        "External elastic membrane — separates tunica media from tunica externa (large arteries only)",
+        "Tunica externa — collagenous and elastic fibres providing outer structural support",
+        "Vasa vasorum — tiny vessels nourishing the vessel wall within tunica externa",
+        "Nervi vasorum — nerve fibres controlling smooth muscle contraction in vessel walls"
+      ]
+    },
+    {
+      "id": "pathway_vasc005",
+      "name": "Lymphatic Drainage",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the pathway of lymph from the interstitial fluid back to the bloodstream",
+      "steps": [
+        "Excess interstitial fluid accumulates as filtration exceeds reabsorption",
+        "Interstitial fluid enters blind-ending lymphatic capillaries via overlapping endothelial flaps",
+        "Lymphatic capillaries merge into larger lymphatic vessels (similar structure to veins)",
+        "Lymph passes through lymph nodes for immune filtration",
+        "Lymphatic vessels converge into lymphatic trunks",
+        "Left side of body and lower limbs drain into the thoracic duct",
+        "Right upper limb, right head and thorax drain into the right lymphatic duct",
+        "Thoracic duct originates at the cisterna chyli, below the diaphragm",
+        "Thoracic duct ascends and drains into the left subclavian vein",
+        "Right lymphatic duct drains into the right subclavian vein — lymph re-enters bloodstream"
+      ]
+    },
+    {
+      "id": "pathway_vasc006",
+      "name": "Vessel Hierarchy",
+      "moduleId": "mod_vasc001",
+      "subtitle": "Arrange the blood vessels in order from the heart through the systemic circuit and back",
+      "steps": [
+        "Left ventricle contracts — blood enters aorta (elastic artery)",
+        "Blood flows into muscular arteries (distributing arteries)",
+        "Muscular arteries branch into arterioles (resistance vessels)",
+        "Arterioles feed metarterioles with precapillary sphincters",
+        "Precapillary sphincters open — blood enters capillary bed",
+        "Gas and nutrient exchange occurs across capillary walls (microcirculation)",
+        "Blood exits capillaries into postcapillary venules",
+        "Venules merge to form veins",
+        "Veins drain into the venae cavae (superior and inferior)",
+        "Blood returns to the right atrium of the heart"
+      ]
+    },
+    {
+      "id": "pathway_heart_conduction_w5",
+      "name": "Cardiac Conduction",
+      "moduleId": "mod_heart_w5",
+      "subtitle": "Arrange the steps of the cardiac conduction pathway in the correct order",
+      "steps": [
+        "SA node fires — initiates impulse at junction of superior vena cava and right atrium",
+        "Impulse spreads across atrial myocardium — both atria depolarize and contract",
+        "Impulse arrives at the AV node — deliberate 0.09s delay allows ventricular filling",
+        "Impulse passes through the Bundle of His — penetrates the membranous interventricular septum",
+        "Impulse travels down the right and left bundle branches (left branch splits into anterior and posterior)",
+        "Purkinje fibre network rapidly distributes the impulse throughout the ventricular myocardium",
+        "Ventricles contract simultaneously in a coordinated fashion — systole"
+      ]
+    },
+    {
+      "id": "pathway_cardiac_cycle_w5",
+      "name": "Cardiac Cycle",
+      "moduleId": "mod_heart_w5",
+      "subtitle": "Arrange the four major phases of the cardiac cycle in the correct order",
+      "steps": [
+        "Ventricular filling (Diastole) — mitral valve opens, rapid passive filling, then diastasis, then atrial kick (15–25% of filling)",
+        "Isovolumetric contraction — mitral valve closes (S1), all valves shut, ventricular pressure rises rapidly at constant volume",
+        "Ventricular ejection (Systole) — aortic valve opens when LV pressure exceeds aortic pressure; blood ejected into aorta; ventricular volume falls",
+        "Isovolumetric relaxation — aortic valve closes (S2, dicrotic notch); all valves shut; ventricular pressure falls rapidly at constant volume until mitral valve reopens"
+      ]
+    },
+    {
+      "id": "pathway_pulmonary_circuit_w5",
+      "name": "Pulmonary Circuit",
+      "moduleId": "mod_heart_w5",
+      "subtitle": "Arrange the steps of blood flow through the pulmonary circuit in the correct order",
+      "steps": [
+        "Deoxygenated blood returns from the body via the superior and inferior vena cava",
+        "Blood enters the right atrium",
+        "Blood passes through the tricuspid valve into the right ventricle",
+        "Right ventricle contracts — blood ejected through the pulmonary semilunar valve",
+        "Blood enters the pulmonary trunk, which bifurcates into left and right pulmonary arteries",
+        "Blood flows into pulmonary capillaries surrounding the alveoli — gas exchange occurs (CO2 out, O2 in)",
+        "Oxygenated blood returns to the left atrium via four pulmonary veins",
+        "Blood passes through the mitral (bicuspid) valve into the left ventricle",
+        "Left ventricle contracts — blood ejected through the aortic semilunar valve into the aorta",
+        "Oxygenated blood distributed to the systemic circulation"
+      ]
+    },
+    {
+      "id": "pathway_ec_coupling_w5",
+      "name": "E-C Coupling",
+      "moduleId": "mod_heart_w5",
+      "subtitle": "Arrange the steps of excitation-contraction coupling in cardiac muscle in the correct order",
+      "steps": [
+        "Action potential generated in cardiac contractile cell",
+        "Action potential travels down T-tubules into the cell interior",
+        "L-type (voltage-gated) Ca2+ channels open — small Ca2+ influx from extracellular fluid",
+        "Small Ca2+ influx triggers Ca2+-induced Ca2+ release (CICR) from the sarcoplasmic reticulum",
+        "Cytosolic Ca2+ rises sharply",
+        "Ca2+ binds to troponin C — troponin-tropomyosin complex shifts, exposing actin binding sites",
+        "Cross-bridge cycling begins — myosin heads bind actin, thin filaments slide inward between thick filaments",
+        "Contraction occurs — sarcomere shortens",
+        "L-type Ca2+ channels close at end of plateau phase — Ca2+ entry from ECF ceases",
+        "SERCA pumps Ca2+ back into the SR; NCX removes Ca2+ to ECF — cytosolic Ca2+ falls below troponin threshold",
+        "Troponin-tropomyosin complex returns to resting position — myofilaments dissociate — relaxation"
+      ]
     }
   ],
   "decks": [],
@@ -4608,6 +6899,33 @@
       "title": "Imported",
       "desc": "6 items",
       "time": "09/05/2026"
+    },
+    {
+      "icon": "☁",
+      "title": "Synced from online",
+      "desc": "Loaded latest data from GitHub",
+      "time": "10/05/2026"
+    },
+    {
+      "icon": "⬆",
+      "title": "Imported",
+      "desc": "8 items",
+      "time": "10/05/2026"
+    },
+    {
+      "icon": "⬆",
+      "title": "Imported",
+      "desc": "5 items",
+      "time": "10/05/2026"
+    },
+    {
+      "icon": "⬆",
+      "title": "Imported",
+      "desc": "6 items",
+      "time": "10/05/2026"
     }
-  ]
+  ],
+  "wrongAnswers": {},
+  "bookmarks": {},
+  "testHistory": []
 }
